@@ -1,0 +1,1147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Module id="ModelerModule" class="org.modelio.module.modelermodule.impl.ModelerModuleModule" binaryversion="3.6.0" version="8.7.10" schema-level="2" uid="00000000-0000-2710-0000-000000000000" author="modelio" image="" url="">
+    <ClassPath>
+        <PathEntry path="lib/modelermodule-8.7.10.jar"/>
+    </ClassPath>
+    <Profiles>
+        <Profile uid="01ec045c-0000-3739-0000-000000000000" id="XMI">
+            <Stereotype name="UML2Abstraction" metaclass="Infrastructure.Dependency" owner-stereotype="" is-hidden="false" label="%stereotype.UML2Abstraction.label" uid="b355cc6c-c4aa-11df-b100-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2ActionInputPin" metaclass="Standard.InputPin" owner-stereotype="" is-hidden="false" label="%stereotype.UML2ActionInputPin.label" uid="0bd72298-5d08-11df-a996-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2AddStructuralFeatureValueAction" metaclass="Standard.OpaqueAction" owner-stereotype="" is-hidden="false" label="%stereotype.UML2AddStructuralFeatureValueAction.label" uid="994fc1e3-c2f9-11de-8ac8-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2AddVariableValueAction" metaclass="Standard.OpaqueAction" owner-stereotype="" is-hidden="false" label="%stereotype.UML2AddVariableValueAction.label" uid="89326f2e-c2fc-11de-8ac8-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2AssociationReference" metaclass="Infrastructure.Dependency" owner-stereotype="" is-hidden="false" label="%stereotype.UML2AssociationReference.label" uid="ee97796b-de99-11de-905b-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2BroadcastSignalAction" metaclass="Standard.SendSignalAction" owner-stereotype="" is-hidden="false" label="%stereotype.UML2BroadcastSignalAction.label" uid="edc05471-5d08-11df-a996-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2ClassifierTemplateParameter" metaclass="Standard.TemplateParameter" owner-stereotype="" is-hidden="false" label="%stereotype.UML2ClassifierTemplateParameter.label" uid="4a427283-5d09-11df-a996-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2ClassifierReference" metaclass="Infrastructure.Dependency" owner-stereotype="" is-hidden="false" label="%stereotype.UML2ClassifierReference.label" uid="ed95fa9b-de99-11de-905b-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2ClearAssociationAction" metaclass="Standard.OpaqueAction" owner-stereotype="" is-hidden="false" label="%stereotype.UML2ClearAssociationAction.label" uid="89927bbf-c2f9-11de-8ac8-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2ClearStructuralFeatureAction" metaclass="Standard.OpaqueAction" owner-stereotype="" is-hidden="false" label="%stereotype.UML2ClearStructuralFeatureAction.label" uid="9fb5321d-c2fc-11de-8ac8-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2ClearVariableAction" metaclass="Standard.OpaqueAction" owner-stereotype="" is-hidden="false" label="%stereotype.UML2ClearVariableAction.label" uid="b071b025-c2fc-11de-8ac8-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2CommunicationPath" metaclass="Standard.Association" owner-stereotype="" is-hidden="false" label="%stereotype.UML2CommunicationPath.label" uid="8ed6276e-5821-11df-be59-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2ComponentRealization" metaclass="Infrastructure.Dependency" owner-stereotype="" is-hidden="false" label="%stereotype.UML2ComponentRealization.label" uid="99bf7919-5d09-11df-a996-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2ConnectableElementTemplateParameter" metaclass="Standard.TemplateParameter" owner-stereotype="" is-hidden="false" label="%stereotype.UML2ConnectableElementTemplateParameter.label" uid="ff6e0375-5d09-11df-a996-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2CreateLinkAction" metaclass="Standard.OpaqueAction" owner-stereotype="" is-hidden="false" label="%stereotype.UML2CreateLinkAction.label" uid="67694a37-c2f9-11de-8ac8-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2CreateLinkObjectAction" metaclass="Standard.OpaqueAction" owner-stereotype="" is-hidden="false" label="%stereotype.UML2CreateLinkObjectAction.label" uid="f8e58a85-c2fa-11de-8ac8-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2CreateObjectAction" metaclass="Standard.OpaqueAction" owner-stereotype="" is-hidden="false" label="%stereotype.UML2CreateObjectAction.label" uid="5582e283-c2f9-11de-8ac8-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2CreationEvent" metaclass="Standard.Event" owner-stereotype="" is-hidden="false" label="%stereotype.UML2CreationEvent.label" uid="4edcbbef-5d0a-11df-a996-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2Deployment" metaclass="Infrastructure.Dependency" owner-stereotype="" is-hidden="false" label="%stereotype.UML2Deployment.label" uid="6faa55e3-5d0b-11df-a996-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2DeploymentSpecification" metaclass="Standard.Artifact" owner-stereotype="" is-hidden="false" label="%stereotype.UML2DeploymentSpecification.label" uid="8c44d73d-5d0b-11df-a996-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2DestroyLinkAction" metaclass="Standard.OpaqueAction" owner-stereotype="" is-hidden="false" label="%stereotype.UML2DestroyLinkAction.label" uid="744f6321-c2f9-11de-8ac8-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2DestroyObjectAction" metaclass="Standard.OpaqueAction" owner-stereotype="" is-hidden="false" label="%stereotype.UML2DestroyObjectAction.label" uid="cf671bc3-c2f9-11de-8ac8-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2DestructionEvent" metaclass="Standard.Event" owner-stereotype="" is-hidden="false" label="%stereotype.UML2DestructionEvent.label" uid="c0f03827-5d0b-11df-a996-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2Device" metaclass="Standard.Node" owner-stereotype="" is-hidden="false" label="%stereotype.UML2Device.label" uid="6f3c6234-52b8-11df-a320-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2EndCreationDataReference" metaclass="Infrastructure.Dependency" owner-stereotype="" is-hidden="false" label="%stereotype.UML2EndCreationDataReference.label" uid="ee06097f-de99-11de-905b-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2EndData_Reference" metaclass="Infrastructure.Dependency" owner-stereotype="" is-hidden="false" label="%stereotype.UML2EndData_Reference.label" uid="5d167c0f-df53-11de-b2b1-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2EndDestructionDataReference" metaclass="Infrastructure.Dependency" owner-stereotype="" is-hidden="false" label="%stereotype.UML2EndDestructionDataReference.label" uid="a74178fb-df2b-11de-905b-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+                <TagTypes>
+                    <TagType name="IsDestroyDuplicates" uid="6f99afff-df2d-11de-905b-001302895b2b" label="%tagtype.IsDestroyDuplicates.label" parameter-card="0" is-hidden="false" is-signed="false"/>
+                </TagTypes>
+            </Stereotype>
+            <Stereotype name="UML2ExceptionHandler" metaclass="Standard.ObjectFlow" owner-stereotype="" is-hidden="false" label="%stereotype.UML2ExceptionHandler.label" uid="1b7fd53f-205e-11df-948e-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2ExceptionTypeReference" metaclass="Infrastructure.Dependency" owner-stereotype="" is-hidden="false" label="%stereotype.UML2ExceptionTypeReference.label" uid="4e477e48-35b4-11df-9280-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2ExecutionEnvironment" metaclass="Standard.Node" owner-stereotype="" is-hidden="false" label="%stereotype.UML2ExecutionEnvironment.label" uid="8e76c95f-5821-11df-be59-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2ExecutionEvent" metaclass="Standard.Event" owner-stereotype="" is-hidden="false" label="%stereotype.UML2ExecutionEvent.label" uid="15d2108f-5d0c-11df-a996-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2ExpansionNode" metaclass="Standard.Pin" owner-stereotype="" is-hidden="false" label="%stereotype.UML2ExpansionNode.label" uid="1b1ba62d-205e-11df-948e-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2ExpansionRegion" metaclass="Standard.StructuredActivityNode" owner-stereotype="" is-hidden="false" label="%stereotype.UML2ExpansionRegion.label" uid="07111319-1fd7-11df-948e-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+                <TagTypes>
+                    <TagType name="Mode" uid="5930231e-3117-11df-b4ad-001302895b2b" label="%tagtype.Mode.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                </TagTypes>
+            </Stereotype>
+            <Stereotype name="UML2Extension" metaclass="Standard.Association" owner-stereotype="" is-hidden="false" label="%stereotype.UML2Extension.label" uid="4b4745a9-5d0c-11df-a996-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2ExtensionEnd" metaclass="Standard.AssociationEnd" owner-stereotype="" is-hidden="false" label="%stereotype.UML2ExtensionEnd.label" uid="770df309-5d0c-11df-a996-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2First" metaclass="Standard.InputPin" owner-stereotype="" is-hidden="false" label="%stereotype.UML2First.label" uid="37d0688a-c308-11de-8ac8-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2GeneralizationSet" metaclass="Standard.Generalization" owner-stereotype="" is-hidden="false" label="%stereotype.UML2GeneralizationSet.label" uid="40400bbd-0b5d-11df-8680-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+                <TagTypes>
+                    <TagType name="Id" uid="c2c549ec-26ab-11df-ac88-001302895b2b" label="%tagtype.Id.label" parameter-card="1" is-hidden="false" is-signed="false"/>
+                </TagTypes>
+            </Stereotype>
+            <Stereotype name="UML2Interaction " metaclass="Standard.Activity" owner-stereotype="" is-hidden="false" label="%stereotype.UML2Interaction .label" uid="021863a9-f3db-11df-8ada-0027103f347c">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2InteractionOverviewDiagram " metaclass="Standard.StaticDiagram" owner-stereotype="" is-hidden="false" label="%stereotype.UML2InteractionOverviewDiagram .label" uid="e4358003-f3da-11df-8ada-0027103f347c">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2InsertAt" metaclass="Standard.InputPin" owner-stereotype="" is-hidden="false" label="%stereotype.UML2InsertAt.label" uid="ec22d8ff-de86-11de-905b-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2InstanceValue" metaclass="Infrastructure.Dependency" owner-stereotype="" is-hidden="false" label="%stereotype.UML2InstanceValue.label" uid="5791cd76-03ec-11e2-9c63-0027103f347d">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2MethodReference" metaclass="Infrastructure.Dependency" owner-stereotype="" is-hidden="false" label="%stereotype.UML2MethodReference.label" uid="e445c33b-de99-11de-905b-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2OperationTemplateParameter" metaclass="Standard.Parameter" owner-stereotype="" is-hidden="false" label="%stereotype.UML2OperationTemplateParameter.label" uid="07ba6521-5d0d-11df-a996-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2ProtocolConformance" metaclass="Infrastructure.Dependency" owner-stereotype="" is-hidden="false" label="%stereotype.UML2ProtocolConformance.label" uid="3edfb381-5d0d-11df-a996-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2RaiseExceptionAction" metaclass="Standard.OpaqueAction" owner-stereotype="" is-hidden="false" label="%stereotype.UML2RaiseExceptionAction.label" uid="d09356f1-c2fc-11de-8ac8-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2ReadExtentAction" metaclass="Standard.OpaqueAction" owner-stereotype="" is-hidden="false" label="%stereotype.UML2ReadExtentAction.label" uid="c4b3add1-c2f9-11de-8ac8-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2ReadIsClassifierObjectAction" metaclass="Standard.OpaqueAction" owner-stereotype="" is-hidden="false" label="%stereotype.UML2ReadIsClassifierObjectAction.label" uid="e4c6c55f-c2fc-11de-8ac8-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2ReadLinkAction" metaclass="Standard.OpaqueAction" owner-stereotype="" is-hidden="false" label="%stereotype.UML2ReadLinkAction.label" uid="6e2770bf-c2f9-11de-8ac8-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2ReadLinkObjectEndAction" metaclass="Standard.OpaqueAction" owner-stereotype="" is-hidden="false" label="%stereotype.UML2ReadLinkObjectEndAction.label" uid="f9061fa3-c2fc-11de-8ac8-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2ReadLinkObjectEndQualifierAction" metaclass="Standard.OpaqueAction" owner-stereotype="" is-hidden="false" label="%stereotype.UML2ReadLinkObjectEndQualifierAction.label" uid="06edcdd9-c2fd-11de-8ac8-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2ReadSelfAction" metaclass="Standard.OpaqueAction" owner-stereotype="" is-hidden="false" label="%stereotype.UML2ReadSelfAction.label" uid="120a35e7-c2fd-11de-8ac8-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2ReadStructuralFeatureAction" metaclass="Standard.OpaqueAction" owner-stereotype="" is-hidden="false" label="%stereotype.UML2ReadStructuralFeatureAction.label" uid="b9654705-c2f9-11de-8ac8-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2ReadVariableAction" metaclass="Standard.OpaqueAction" owner-stereotype="" is-hidden="false" label="%stereotype.UML2ReadVariableAction.label" uid="1abd18db-c2fd-11de-8ac8-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2Reception" metaclass="Standard.Operation" owner-stereotype="" is-hidden="false" label="%stereotype.UML2Reception.label" uid="a46b20b8-26ab-11df-ac88-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2ReclassifyObjectAction" metaclass="Standard.OpaqueAction" owner-stereotype="" is-hidden="false" label="%stereotype.UML2ReclassifyObjectAction.label" uid="229bc921-c2fd-11de-8ac8-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2RedefinableTemplateSignature" metaclass="Standard.Operation" owner-stereotype="" is-hidden="false" label="%stereotype.UML2RedefinableTemplateSignature.label" uid="90a0e341-5d0d-11df-a996-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2ReduceAction" metaclass="Standard.OpaqueAction" owner-stereotype="" is-hidden="false" label="%stereotype.UML2ReduceAction.label" uid="2eb4ec1b-c2fd-11de-8ac8-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2RemoveStructuralFeatureAction" metaclass="Standard.OpaqueAction" owner-stereotype="" is-hidden="false" label="%stereotype.UML2RemoveStructuralFeatureAction.label" uid="35b84299-c2fd-11de-8ac8-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2RemoveVariableValueAction" metaclass="Standard.OpaqueAction" owner-stereotype="" is-hidden="false" label="%stereotype.UML2RemoveVariableValueAction.label" uid="435869cb-c2fd-11de-8ac8-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2ReplyAction" metaclass="Standard.OpaqueAction" owner-stereotype="" is-hidden="false" label="%stereotype.UML2ReplyAction.label" uid="c6a579b6-5d0d-11df-a996-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2Second" metaclass="Standard.InputPin" owner-stereotype="" is-hidden="false" label="%stereotype.UML2Second.label" uid="3f03c5f1-c308-11de-8ac8-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2SendObjectAction" metaclass="Standard.OpaqueAction" owner-stereotype="" is-hidden="false" label="%stereotype.UML2SendObjectAction.label" uid="52d7cccb-c2fd-11de-8ac8-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2SequenceNode" metaclass="Standard.StructuredActivityNode" owner-stereotype="" is-hidden="false" label="%stereotype.UML2SequenceNode.label" uid="fca54004-5d0d-11df-a996-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2StartClassifierBehaviorAction" metaclass="Standard.OpaqueAction" owner-stereotype="" is-hidden="false" label="%stereotype.UML2StartClassifierBehaviorAction.label" uid="5d357779-c2fd-11de-8ac8-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2StructuralFeatureReference" metaclass="Infrastructure.Dependency" owner-stereotype="" is-hidden="false" label="%stereotype.UML2StructuralFeatureReference.label" uid="ed0bb1c3-de99-11de-905b-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2Target" metaclass="Standard.InputPin" owner-stereotype="" is-hidden="false" label="%stereotype.UML2Target.label" uid="aa99ee06-c495-11de-ada1-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2TemplateSignature" metaclass="Standard.Operation" owner-stereotype="" is-hidden="false" label="%stereotype.UML2TemplateSignature.label" uid="554cb8bb-5d0e-11df-a996-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2TestIdentityAction" metaclass="Standard.OpaqueAction" owner-stereotype="" is-hidden="false" label="%stereotype.UML2TestIdentityAction.label" uid="6a3f6989-c2fd-11de-8ac8-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2UnmarshallAction" metaclass="Standard.OpaqueAction" owner-stereotype="" is-hidden="false" label="%stereotype.UML2UnmarshallAction.label" uid="76c174ab-c2fd-11de-8ac8-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2Value" metaclass="Standard.InputPin" owner-stereotype="" is-hidden="false" label="%stereotype.UML2Value.label" uid="eb8f06b7-de86-11de-905b-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2ValueSpecificationAction" metaclass="Standard.OpaqueAction" owner-stereotype="" is-hidden="false" label="%stereotype.UML2ValueSpecificationAction.label" uid="1c0bf642-a90f-11de-8613-001302895b2b">
+                <Icon path=""/>
+                <Image path=""/>
+                <TagTypes>
+                    <TagType name="Value" uid="b1935f69-ac36-11de-aefc-001302895b2b" label="%tagtype.Value.label" parameter-card="1" is-hidden="false" is-signed="false"/>
+                </TagTypes>
+            </Stereotype>
+            <Stereotype name="UML2Signal" metaclass="Infrastructure.Dependency" owner-stereotype="" is-hidden="false" label="%stereotype.UML2Signal.label" uid="33ea7558-fb93-11df-8b5e-0027103f347c">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2BodyOutput" metaclass="Standard.OutputPin" owner-stereotype="" is-hidden="false" label="%stereotype.UML2BodyOutput.label" uid="fdbc7d78-32c7-11e0-91f3-0027103f347c">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2Decider" metaclass="Standard.OutputPin" owner-stereotype="" is-hidden="false" label="%stereotype.UML2Decider.label" uid="27ac6d48-32c8-11e0-91f3-0027103f347c">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2Body" metaclass="Standard.ActivityNode" owner-stereotype="" is-hidden="false" label="%stereotype.UML2Body.label" uid="76f275f9-32d9-11e0-91f3-0027103f347c">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2SetUp" metaclass="Standard.ActivityNode" owner-stereotype="" is-hidden="false" label="%stereotype.UML2SetUp.label" uid="86eada10-32d9-11e0-91f3-0027103f347c">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2Value" metaclass="Standard.InputPin" owner-stereotype="" is-hidden="false" label="%stereotype.UML2Value.label" uid="34ef5bd6-d7e4-11e2-b93f-0027103f347c">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="UML2StereotypeProperty" metaclass="Standard.Class" owner-stereotype="" is-hidden="false" label="%stereotype.UML2StereotypeProperty.label" uid="bae91a3b-7009-11e0-a462-0027103f347c">
+                <Icon path=""/>
+                <Image path=""/>
+                <TagTypes>
+                    <TagType name="Property" uid="c28e8b06-7009-11e0-a462-0027103f347c" label="%tagtype.Property.label" parameter-card="1" is-hidden="false" is-signed="false"/>
+                </TagTypes>
+            </Stereotype>
+            <Stereotype name="UML2PropertyType" metaclass="Standard.Attribute" owner-stereotype="" is-hidden="false" label="%stereotype.UML2PropertyType.label" uid="68c63e60-70d6-11e0-872f-0027103f347c">
+                <Icon path=""/>
+                <Image path=""/>
+                <TagTypes>
+                    <TagType name="PropertyType" uid="68c63e61-70d6-11e0-872f-0027103f347c" label="%tagtype.PropertyType.label" parameter-card="1" is-hidden="false" is-signed="false"/>
+                </TagTypes>
+            </Stereotype>
+            <Stereotype name="UML2Variable" metaclass="Standard.InstanceNode" owner-stereotype="" is-hidden="false" label="%stereotype.UML2Variable.label" uid="de38398e-c746-11e1-8624-0027103f347d">
+                <Icon path=""/>
+                <Image path=""/>
+                <TagTypes>
+                    <TagType name="Ordered" uid="03791167-cf3b-11e1-928c-0027103f347d" label="%tagtype.Ordered.label" parameter-card="0" is-hidden="false" is-signed="false"/>
+                    <TagType name="Unique" uid="16933d11-cf40-11e1-b123-0027103f347d" label="%tagtype.Unique.label" parameter-card="0" is-hidden="false" is-signed="false"/>
+                    <TagType name="Lower" uid="269fc5ec-cf40-11e1-b123-0027103f347d" label="%tagtype.Lower.label" parameter-card="1" is-hidden="false" is-signed="false"/>
+                </TagTypes>
+            </Stereotype>
+            <MetaclassReference uid="01ec045c-0000-10a1-0000-000000000000" metaclass="Infrastructure.ModelElement">
+                <TagTypes>
+                    <TagType name="XMIImported" uid="01ec045c-0000-373f-0000-000000000000" label="%tagtype.XMIImported.label" parameter-card="0" is-hidden="true" is-signed="false"/>
+                    <TagType name="NotExported" uid="1cbf4295-9bcf-11e0-8162-0027103f347c" label="%tagtype.NotExported.label" parameter-card="0" is-hidden="false" is-signed="false"/>
+                    <TagType name="EcoreId" uid="46e094c2-6889-11e1-905a-0027103f347d" label="%tagtype.EcoreId.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                </TagTypes>
+            </MetaclassReference>
+            <MetaclassReference uid="7a804dc3-44ec-11e0-8f73-0027103f347c" metaclass="Standard.AssociationEnd">
+                <TagTypes>
+                    <TagType name="IsOwnedByClassifier" uid="7e92b0f6-44ec-11e0-8f73-0027103f347c" label="%tagtype.IsOwnedByClassifier.label" parameter-card="0" is-hidden="false" is-signed="false"/>
+                </TagTypes>
+            </MetaclassReference>
+        </Profile>
+        <Profile uid="d7ea54fa-8913-11df-8dda-0014224f9977" id="TemplateProfile">
+            <Stereotype name="Pattern" metaclass="Standard.Package" owner-stereotype="" is-hidden="false" label="%stereotype.Pattern.label" uid="641a5778-89a9-11df-9978-0014224f9977">
+                <Icon path="res/bmp/template16.png"/>
+                <Image path="res/bmp/template16.png"/>
+                <TagTypes>
+                    <TagType name="Template.Version" uid="dc10adee-8a8b-11df-9e1a-0014224f9977" label="%tagtype.Template.Version.label" parameter-card="1" is-hidden="false" is-signed="false"/>
+                    <TagType name="Template.Image" uid="e0523ecf-8a8b-11df-9e1a-0014224f9977" label="%tagtype.Template.Image.label" parameter-card="1" is-hidden="false" is-signed="false"/>
+                    <TagType name="Template.Categories" uid="f0e3af4a-8a8b-11df-9e1a-0014224f9977" label="%tagtype.Template.Categories.label" parameter-card="*" is-hidden="false" is-signed="false"/>
+                    <TagType name="Template.File" uid="56ba0e27-90e3-11df-8b98-0014224f9977" label="%tagtype.Template.File.label" parameter-card="1" is-hidden="false" is-signed="false"/>
+                    <TagType name="Template.StringParameters" uid="d0bbc251-94a3-11df-b1e5-0014224f9977" label="%tagtype.Template.StringParameters.label" parameter-card="*" is-hidden="false" is-signed="false"/>
+                    <TagType name="Template.Parameters" uid="120a832b-6bf6-4b03-900f-f60e86f19363" label="%tagtype.Template.Parameters.label" parameter-card="*" is-hidden="false" is-signed="false"/>
+                </TagTypes>
+            </Stereotype>
+            <Stereotype name="PatternRoot" metaclass="Standard.UmlModelElement" owner-stereotype="" is-hidden="false" label="%stereotype.PatternRoot.label" uid="ad46ab04-9310-11df-a4cf-0014224f9977">
+                <Icon path="res/bmp/templateroot16.png"/>
+                <Image path="res/bmp/templateroot16.png"/>
+            </Stereotype>
+            <Stereotype name="PatternParameter" metaclass="Standard.UmlModelElement" owner-stereotype="" is-hidden="false" label="%stereotype.PatternParameter.label" uid="3c4678f8-f169-11df-ae59-0014224f9977">
+                <Icon path=""/>
+                <Image path=""/>
+                <TagTypes>
+                    <TagType name="PatternParameter.Name" uid="f2db899a-f169-11df-ae59-0014224f9977" label="%tagtype.PatternParameter.Name.label" parameter-card="1" is-hidden="false" is-signed="false"/>
+                    <TagType name="PatternParameter.Label" uid="f739b2fd-f169-11df-ae59-0014224f9977" label="%tagtype.PatternParameter.Label.label" parameter-card="1" is-hidden="false" is-signed="false"/>
+                </TagTypes>
+            </Stereotype>
+            <MetaclassReference uid="1f889934-8d90-11df-98b9-0014224f9977" metaclass="Infrastructure.ModelElement">
+                <TagTypes>
+                    <TagType name="TemplateParameter.Name" uid="072f1214-8a88-11df-9e1a-0014224f9977" label="%tagtype.TemplateParameter.Name.label" parameter-card="1" is-hidden="false" is-signed="false"/>
+                    <TagType name="TemplateParameter.Label" uid="d7f8ca90-8d91-11df-98b9-0014224f9977" label="%tagtype.TemplateParameter.Label.label" parameter-card="1" is-hidden="false" is-signed="false"/>
+                </TagTypes>
+            </MetaclassReference>
+        </Profile>
+        <Profile uid="051f4291-f151-4147-99c5-fd78221f49e2" id="mda">
+            <Stereotype name="MDAAssocDep" metaclass="Infrastructure.Dependency" owner-stereotype="" is-hidden="false" label="%stereotype.MDAAssocDep.label" uid="94b7efa5-f94c-4d1d-896f-f103e56a8e2e">
+                <Icon path=""/>
+                <Image path=""/>
+                <TagTypes>
+                    <TagType name="role" uid="7637f2fd-b750-43c1-a15c-5d0b084ca1cd" label="%tagtype.role.label" parameter-card="1" is-hidden="false" is-signed="false"/>
+                </TagTypes>
+            </Stereotype>
+        </Profile>
+        <Profile uid="00300000-0000-0032-0000-000000000000" id="Code">
+            <MetaclassReference uid="00bc2f68-0000-0f3a-0000-000000000000" metaclass="Standard.AssociationEnd">
+                <TagTypes>
+                    <TagType name="nocode" uid="00000000-0000-36be-0000-000000000000" label="%tagtype.nocode.label" parameter-card="0" is-hidden="false" is-signed="false"/>
+                    <TagType name="type" uid="00000000-0000-3766-0000-000000000000" label="%tagtype.type.label" parameter-card="*" is-hidden="false" is-signed="false"/>
+                </TagTypes>
+            </MetaclassReference>
+            <MetaclassReference uid="00bc2f68-0000-0f44-0000-000000000000" metaclass="Standard.Attribute">
+                <TagTypes>
+                    <TagType name="nocode" uid="00000000-0000-36bb-0000-000000000000" label="%tagtype.nocode.label" parameter-card="0" is-hidden="false" is-signed="false"/>
+                    <TagType name="type" uid="00000000-0000-3765-0000-000000000000" label="%tagtype.type.label" parameter-card="*" is-hidden="false" is-signed="false"/>
+                </TagTypes>
+            </MetaclassReference>
+            <MetaclassReference uid="00bc2f68-0000-0f51-0000-000000000000" metaclass="Standard.GeneralClass">
+                <TagTypes>
+                    <TagType name="nocode" uid="00000000-0000-36bc-0000-000000000000" label="%tagtype.nocode.label" parameter-card="0" is-hidden="false" is-signed="false"/>
+                </TagTypes>
+            </MetaclassReference>
+            <MetaclassReference uid="00bc2f68-0000-0f6b-0000-000000000000" metaclass="Infrastructure.Note">
+                <TagTypes>
+                    <TagType name="JEvaluation" uid="00000000-0000-375b-0000-000000000000" label="%tagtype.JEvaluation.label" parameter-card="0" is-hidden="true" is-signed="false"/>
+                </TagTypes>
+            </MetaclassReference>
+            <MetaclassReference uid="00bc2f68-0000-0fa9-0000-000000000000" metaclass="Standard.Operation">
+                <TagTypes>
+                    <TagType name="nocode" uid="00000000-0000-36bd-0000-000000000000" label="%tagtype.nocode.label" parameter-card="0" is-hidden="false" is-signed="false"/>
+                </TagTypes>
+            </MetaclassReference>
+            <MetaclassReference uid="00bc2f68-0000-0faf-0000-000000000000" metaclass="Standard.Package">
+                <TagTypes>
+                    <TagType name="nocode" uid="00000000-0000-36bf-0000-000000000000" label="%tagtype.nocode.label" parameter-card="0" is-hidden="false" is-signed="false"/>
+                </TagTypes>
+            </MetaclassReference>
+            <MetaclassReference uid="00bc2f68-0000-0fc2-0000-000000000000" metaclass="Standard.Parameter">
+                <TagTypes>
+                    <TagType name="type" uid="00000000-0000-3767-0000-000000000000" label="%tagtype.type.label" parameter-card="*" is-hidden="false" is-signed="false"/>
+                </TagTypes>
+            </MetaclassReference>
+        </Profile>
+        <Profile uid="1be2e3fc-27ca-11e1-8d9c-002564c97630" id="Analyst">
+            <Stereotype name="dictionary_propertyset" metaclass="Infrastructure.PropertyTableDefinition" owner-stereotype="" is-hidden="true" label="%stereotype.dictionary_propertyset.label" uid="01ec141c-0000-12fc-0000-000000000000">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="dictionary_diagram" metaclass="Standard.StaticDiagram" owner-stereotype="" is-hidden="true" label="%stereotype.dictionary_diagram.label" uid="01ec12fc-0000-0c02-0000-000000000000">
+                <Icon path="res/bmp/staticdiagram_dictionary.png"/>
+                <Image path="res/bmp/staticdiagram_dictionary_image.png"/>
+            </Stereotype>
+            <Stereotype name="business_rule_diagram" metaclass="Standard.StaticDiagram" owner-stereotype="" is-hidden="true" label="%stereotype.business_rule_diagram.label" uid="01ec12fc-0000-0aca-0000-000000000000">
+                <Icon path="res/bmp/staticdiagram_business_rule.png"/>
+                <Image path="res/bmp/staticdiagram_business_rule_image.png"/>
+            </Stereotype>
+            <Stereotype name="business_rule_propertyset" metaclass="Infrastructure.PropertyTableDefinition" owner-stereotype="" is-hidden="true" label="%stereotype.business_rule_propertyset.label" uid="01ec141c-0000-1301-0000-000000000000">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="requirement_propertyset" metaclass="Infrastructure.PropertyTableDefinition" owner-stereotype="" is-hidden="true" label="%stereotype.requirement_propertyset.label" uid="01ec141c-0000-12f7-0000-000000000000">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="requirement_diagram" metaclass="Standard.StaticDiagram" owner-stereotype="" is-hidden="true" label="%stereotype.requirement_diagram.label" uid="01ec12fc-0000-0bfd-0000-000000000000">
+                <Icon path="res/bmp/staticdiagram_requirement.png"/>
+                <Image path="res/bmp/staticdiagram_requirement_image.png"/>
+            </Stereotype>
+            <Stereotype name="goal_propertyset" metaclass="Infrastructure.PropertyTableDefinition" owner-stereotype="" is-hidden="true" label="%stereotype.goal_propertyset.label" uid="01ec141c-0000-12f2-0000-000000000000">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="goal_diagram" metaclass="Standard.StaticDiagram" owner-stereotype="" is-hidden="true" label="%stereotype.goal_diagram.label" uid="01ec12fc-0000-0a37-0000-000000000000">
+                <Icon path="res/bmp/staticdiagram_goal.png"/>
+                <Image path="res/bmp/staticdiagram_goal_image.png"/>
+            </Stereotype>
+            <Stereotype name="risk_propertyset" metaclass="Infrastructure.PropertyTableDefinition" owner-stereotype="" is-hidden="true" label="%stereotype.risk_propertyset.label" uid="679a9417-8f06-4255-a409-1e1f7136e418">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="risk_diagram" metaclass="Standard.StaticDiagram" owner-stereotype="" is-hidden="true" label="%stereotype.risk_diagram.label" uid="61222898-ff82-4681-a82f-a8f14c479dd1"/>
+            <Stereotype name="test_propertyset" metaclass="Infrastructure.PropertyTableDefinition" owner-stereotype="" is-hidden="true" label="%stereotype.test_propertyset.label" uid="859f8b76-5acc-4a9c-a5eb-973467388b13">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="test_diagram" metaclass="Standard.StaticDiagram" owner-stereotype="" is-hidden="true" label="%stereotype.test_diagram.label" uid="e1d2f141-a387-4fd1-bff7-3f7dcbcb8718">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="part" metaclass="Infrastructure.Dependency" owner-stereotype="" is-hidden="false" label="%stereotype.part.label" uid="01ec12fc-0000-00b7-0000-000000000000">
+                <Icon path="res/bmp/dependency_part.png"/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="derive" metaclass="Infrastructure.Dependency" owner-stereotype="" is-hidden="false" label="%stereotype.derive.label" uid="01ec12fc-0000-021a-0000-000000000000">
+                <Icon path="res/bmp/dependency_derive.png"/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="satisfy" metaclass="Infrastructure.Dependency" owner-stereotype="" is-hidden="false" label="%stereotype.satisfy.label" uid="01ec12fc-0000-0224-0000-000000000000">
+                <Icon path="res/bmp/dependency_satisfy.png"/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="verify" metaclass="Infrastructure.Dependency" owner-stereotype="" is-hidden="false" label="%stereotype.verify.label" uid="01ec12fc-0000-0229-0000-000000000000">
+                <Icon path="res/bmp/dependency_verify.png"/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="refers" metaclass="Infrastructure.Dependency" owner-stereotype="" is-hidden="false" label="%stereotype.refers.label" uid="01ec12fc-0000-0265-0000-000000000000">
+                <Icon path="res/bmp/dependency_refers.png"/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="refine" metaclass="Infrastructure.Dependency" owner-stereotype="" is-hidden="false" label="%stereotype.refine.label" uid="01ec12fc-0000-021f-0000-000000000000">
+                <Icon path="res/bmp/dependency_refine.png"/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="related" metaclass="Infrastructure.Dependency" owner-stereotype="" is-hidden="false" label="%stereotype.related.label" uid="01ec12fc-0000-023d-0000-000000000000">
+                <Icon path="res/bmp/dependency_related.png"/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="implement" metaclass="Infrastructure.Dependency" owner-stereotype="" is-hidden="false" label="%stereotype.implement.label" uid="01ec12fc-0000-0260-0000-000000000000">
+                <Icon path="res/bmp/dependency_implement.png"/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="+influence" metaclass="Infrastructure.Dependency" owner-stereotype="" is-hidden="false" label="%stereotype.+influence.label" uid="01ec12fc-0000-0247-0000-000000000000">
+                <Icon path="res/bmp/dependency_positiveinfluence.png"/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="-influence" metaclass="Infrastructure.Dependency" owner-stereotype="" is-hidden="false" label="%stereotype.-influence.label" uid="01ec12fc-0000-024c-0000-000000000000">
+                <Icon path="res/bmp/dependency_negativeinfluence.png"/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="guarantee" metaclass="Infrastructure.Dependency" owner-stereotype="" is-hidden="false" label="%stereotype.guarantee.label" uid="01ec12fc-0000-0251-0000-000000000000">
+                <Icon path="res/bmp/dependency_guarantee.png"/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="homonym" metaclass="Infrastructure.Dependency" owner-stereotype="" is-hidden="false" label="%stereotype.homonym.label" uid="01ec12fc-0000-0238-0000-000000000000">
+                <Icon path="res/bmp/dependency_homonym.png"/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="measure" metaclass="Infrastructure.Dependency" owner-stereotype="" is-hidden="false" label="%stereotype.measure.label" uid="01ec12fc-0000-0256-0000-000000000000">
+                <Icon path="res/bmp/dependency_measure.png"/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="antonym" metaclass="Infrastructure.Dependency" owner-stereotype="" is-hidden="false" label="%stereotype.antonym.label" uid="01ec12fc-0000-0233-0000-000000000000">
+                <Icon path="res/bmp/dependency_antonym.png"/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="assigned" metaclass="Infrastructure.Dependency" owner-stereotype="" is-hidden="false" label="%stereotype.assigned.label" uid="01ec12fc-0000-025b-0000-000000000000">
+                <Icon path="res/bmp/dependency_assigned.png"/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="synonym" metaclass="Infrastructure.Dependency" owner-stereotype="" is-hidden="false" label="%stereotype.synonym.label" uid="01ec12fc-0000-022e-0000-000000000000">
+                <Icon path="res/bmp/dependency_synonym.png"/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="context" metaclass="Infrastructure.Dependency" owner-stereotype="" is-hidden="false" label="%stereotype.context.label" uid="01ec12fc-0000-0242-0000-000000000000">
+                <Icon path="res/bmp/dependency_context.png"/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="kind-of" metaclass="Infrastructure.Dependency" owner-stereotype="" is-hidden="false" label="%stereotype.kind-of.label" uid="01ec1228-0000-12f8-0000-000000000000">
+                <Icon path="res/bmp/dependency_derive.png"/>
+                <Image path=""/>
+            </Stereotype>
+            <MetaclassReference uid="2d98d6ca-5644-418a-9bae-94b5362d3c51" metaclass="Analyst.AnalystElement">
+                <ExternDocumentTypes>
+                    <ExternDocumentType name="business_rule" uid="9ede8a0a-2176-11e1-a46e-002564c97630" label="%externdocumenttype.business_rule.label" is-hidden="true"/>
+                    <ExternDocumentType name="goal" uid="9f737ada-2176-11e1-a46e-002564c97630" label="%externdocumenttype.goal.label" is-hidden="true"/>
+                    <ExternDocumentType name="term" uid="316a4eff-219e-11e1-b44e-002564c97630" label="%externdocumenttype.term.label" is-hidden="true"/>
+                    <ExternDocumentType name="requirement" uid="9f290272-2176-11e1-a46e-002564c97630" label="%externdocumenttype.requirement.label" is-hidden="true"/>
+                    <ExternDocumentType name="generic_analyst" uid="489f9f73-e53a-45c4-a7bf-1445ad481c7b" label="%externdocumenttype.generic_analyst.label" is-hidden="true"/>
+                </ExternDocumentTypes>
+            </MetaclassReference>
+            <MetaclassReference uid="e884c108-f73e-11e1-8cf3-002564c97630" metaclass="Infrastructure.ExternDocument">
+                <TagTypes>
+                    <TagType name="editor_column" uid="f1ac1b77-f73e-11e1-8cf3-002564c97630" label="%tagtype.editor_column.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                </TagTypes>
+            </MetaclassReference>
+        </Profile>
+        <Profile uid="007004e8-0000-0282-0000-000000000000" id="default">
+            <Stereotype name="ExternalDocument" metaclass="Infrastructure.Note" owner-stereotype="" is-hidden="false" label="%stereotype.ExternalDocument.label" uid="c2e23680-96f0-11de-a322-001fe2c988b8">
+                <Icon path="res/bmp/externalDocument.png"/>
+                <Image path=""/>
+                <TagTypes>
+                    <TagType name="isLink" uid="0da68860-96f1-11de-a322-001fe2c988b8" label="%tagtype.isLink.label" parameter-card="0" is-hidden="false" is-signed="false"/>
+                    <TagType name="LinkLabel" uid="4027c488-2b5c-11df-9426-00137279a5d1" label="%tagtype.LinkLabel.label" parameter-card="1" is-hidden="false" is-signed="false"/>
+                </TagTypes>
+            </Stereotype>
+            <Stereotype name="ModelComponent" metaclass="Standard.Component" owner-stereotype="" is-hidden="true" label="%stereotype.ModelComponent.label" uid="00d0052c-0000-0143-0000-000000000000">
+                <Icon path="res/bmp/ramc.png"/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="ModelComponentArchive" metaclass="Standard.Artifact" owner-stereotype="" is-hidden="true" label="%stereotype.ModelComponentArchive.label" uid="00140d80-0000-0110-0000-000000000000">
+                <Icon path="res/bmp/ramcarchive.png"/>
+                <Image path=""/>
+                <TagTypes>
+                    <TagType name="ModelComponentFiles" uid="00140d80-0000-0112-0000-000000000000" label="%tagtype.ModelComponentFiles.label" parameter-card="*" is-hidden="true" is-signed="false"/>
+                    <TagType name="ModelComponentVersion" uid="00140d80-0000-020c-0000-000000000000" label="%tagtype.ModelComponentVersion.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="ModelComponentContributors" uid="9834df4e-84a3-4ec8-b216-fd2adda71578" label="%tagtype.ModelComponentContributors.label" parameter-card="*" is-hidden="true" is-signed="false"/>
+                </TagTypes>
+            </Stereotype>
+            <Stereotype name="ModelComponentElementAlias" metaclass="Standard.UmlModelElement" owner-stereotype="" is-hidden="false" label="%stereotype.ModelComponentElementAlias.label" uid="3254be34-c7d8-4018-8a68-5de65c30b773">
+                <Icon path=""/>
+                <Image path=""/>
+                <TagTypes>
+                    <TagType name="uuid" uid="7ebbd53f-a5f3-433b-872c-4024615af229" label="%tagtype.uuid.label" parameter-card="1" is-hidden="false" is-signed="false"/>
+                </TagTypes>
+            </Stereotype>
+            <Stereotype name="access" metaclass="Standard.ElementImport" owner-stereotype="" is-hidden="false" label="%stereotype.access.label" uid="00700680-0000-01cc-0000-000000000000">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="catch" metaclass="Standard.ElementImport" owner-stereotype="" is-hidden="false" label="%stereotype.catch.label" uid="0054070c-0000-005f-0000-000000000000">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="complete" metaclass="Standard.Constraint" owner-stereotype="" is-hidden="false" label="%stereotype.complete.label" uid="00700680-0000-01f1-0000-000000000000">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="create" metaclass="Standard.ElementImport" owner-stereotype="" is-hidden="false" label="%stereotype.create.label" uid="00700680-0000-0202-0000-000000000000">
+                <Icon path="res/bmp/operation_constructor.png"/>
+                <Image path="res/bmp/operation_constructor.png"/>
+            </Stereotype>
+            <Stereotype name="create" metaclass="Standard.Operation" owner-stereotype="" is-hidden="false" label="%stereotype.create.label" uid="00700680-0000-0204-0000-000000000000">
+                <Icon path="res/bmp/operation_constructor.png"/>
+                <Image path="res/bmp/operation_constructor.png"/>
+            </Stereotype>
+            <Stereotype name="design pattern" metaclass="Standard.Class" owner-stereotype="" is-hidden="false" label="%stereotype.design pattern.label" uid="007006dc-0000-0139-0000-000000000000">
+                <Icon path=""/>
+                <Image path="res/bmp/designpattern_icon.png"/>
+            </Stereotype>
+            <Stereotype name="destroy" metaclass="Standard.Operation" owner-stereotype="" is-hidden="false" label="%stereotype.destroy.label" uid="00700680-0000-0206-0000-000000000000">
+                <Icon path="res/bmp/operation_destructor.png"/>
+                <Image path="res/bmp/operation_destructor.png"/>
+            </Stereotype>
+            <Stereotype name="destroyed" metaclass="Standard.Constraint" owner-stereotype="" is-hidden="false" label="%stereotype.destroyed.label" uid="00700680-0000-01f3-0000-000000000000">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="disjoin" metaclass="Standard.Constraint" owner-stereotype="" is-hidden="false" label="%stereotype.disjoin.label" uid="00700680-0000-01f5-0000-000000000000">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="exception" metaclass="Standard.Signal" owner-stereotype="" is-hidden="false" label="%stereotype.exception.label" uid="00700680-0000-01d1-0000-000000000000">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="executable" metaclass="Standard.Artifact" owner-stereotype="" is-hidden="false" label="%stereotype.executable.label" uid="00700680-0000-01c3-0000-000000000000">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="extend" metaclass="Standard.UseCaseDependency" owner-stereotype="" is-hidden="false" label="%stereotype.extend.label" uid="00000000-0000-9c48-0000-000000000000">
+                <Icon path="res/bmp/usecasedependencyextend.png"/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="facade" metaclass="Standard.Package" owner-stereotype="" is-hidden="false" label="%stereotype.facade.label" uid="00700680-0000-01d5-0000-000000000000">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="flow" metaclass="Infrastructure.Dependency" owner-stereotype="" is-hidden="false" label="%stereotype.flow.label" uid="01ec1228-0000-0964-0000-000000000000">
+                <Icon path="res/bmp/dataflow.png"/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="frameWork" metaclass="Standard.Package" owner-stereotype="" is-hidden="false" label="%stereotype.frameWork.label" uid="00700680-0000-01db-0000-000000000000">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="friend" metaclass="Standard.ElementImport" owner-stereotype="" is-hidden="false" label="%stereotype.friend.label" uid="00700680-0000-01ca-0000-000000000000">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="impact_root" metaclass="Infrastructure.Dependency" owner-stereotype="" is-hidden="false" label="%stereotype.impact_root.label" uid="01ec2468-0000-0ac1-0000-000000000000">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="impact_subroot" metaclass="Infrastructure.Dependency" owner-stereotype="" is-hidden="false" label="%stereotype.impact_subroot.label" uid="01ec2468-0000-0ac6-0000-000000000000">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="implementation" metaclass="Standard.Generalization" owner-stereotype="" is-hidden="false" label="%stereotype.implementation.label" uid="00700680-0000-01c7-0000-000000000000">
+                <Icon path="res/bmp/realization.png"/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="implementationClass" metaclass="Standard.Class" owner-stereotype="" is-hidden="false" label="%stereotype.implementationClass.label" uid="00bc0050-0000-006b-0000-000000000000">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="implicit" metaclass="Standard.Association" owner-stereotype="" is-hidden="false" label="%stereotype.implicit.label" uid="00700680-0000-01b8-0000-000000000000">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="import" metaclass="Standard.ElementImport" owner-stereotype="" is-hidden="false" label="%stereotype.import.label" uid="00700680-0000-01ce-0000-000000000000">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="include" metaclass="Standard.UseCaseDependency" owner-stereotype="" is-hidden="false" label="%stereotype.include.label" uid="00000000-0000-9c49-0000-000000000000">
+                <Icon path="res/bmp/usecasedependencyinclude.png"/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="incomplete" metaclass="Standard.Constraint" owner-stereotype="" is-hidden="false" label="%stereotype.incomplete.label" uid="00700680-0000-01f7-0000-000000000000">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="instantiate" metaclass="Standard.ElementImport" owner-stereotype="" is-hidden="false" label="%stereotype.instantiate.label" uid="00700680-0000-01e5-0000-000000000000">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="invariant" metaclass="Standard.Constraint" owner-stereotype="" is-hidden="false" label="%stereotype.invariant.label" uid="00000000-0000-9c44-0000-000000000000">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="library" metaclass="Standard.Artifact" owner-stereotype="" is-hidden="false" label="%stereotype.library.label" uid="00700680-0000-01c5-0000-000000000000">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="manifestation" metaclass="Infrastructure.Dependency" owner-stereotype="" is-hidden="false" label="%stereotype.manifestation.label" uid="d5bccf8e-79b3-48df-8c79-09200aa52d19">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="metaclass" metaclass="Standard.Classifier" owner-stereotype="" is-hidden="false" label="%stereotype.metaclass.label" uid="00700680-0000-01bd-0000-000000000000">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="metamodel" metaclass="Standard.Package" owner-stereotype="" is-hidden="false" label="%stereotype.metamodel.label" uid="00700680-0000-01e7-0000-000000000000">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="new" metaclass="Standard.Constraint" owner-stereotype="" is-hidden="false" label="%stereotype.new.label" uid="00700680-0000-01f9-0000-000000000000">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="ordered" metaclass="Standard.Constraint" owner-stereotype="" is-hidden="false" label="%stereotype.ordered.label" uid="00540a84-0000-0003-0000-000000000000">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="overlapping" metaclass="Standard.Constraint" owner-stereotype="" is-hidden="false" label="%stereotype.overlapping.label" uid="00700680-0000-01fb-0000-000000000000">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="postcondition" metaclass="Standard.Constraint" owner-stereotype="" is-hidden="false" label="%stereotype.postcondition.label" uid="00000000-0000-9c46-0000-000000000000">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="precondition" metaclass="Standard.Constraint" owner-stereotype="" is-hidden="false" label="%stereotype.precondition.label" uid="00000000-0000-9c45-0000-000000000000">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="primary" metaclass="Standard.Actor" owner-stereotype="" is-hidden="false" label="%stereotype.primary.label" uid="01ec1ac4-0000-2ef9-0000-000000000000">
+                <Icon path="res/bmp/primary.png"/>
+                <Image path="res/bmp/bigprimary.png"/>
+            </Stereotype>
+            <Stereotype name="process" metaclass="Standard.Classifier" owner-stereotype="" is-hidden="false" label="%stereotype.process.label" uid="00700680-0000-01ef-0000-000000000000">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="scenario" metaclass="Standard.Interaction" owner-stereotype="" is-hidden="false" label="%stereotype.scenario.label" uid="01ec1ac4-0000-2eff-0000-000000000000">
+                <Icon path="res/bmp/scenario.png"/>
+                <Image path="res/bmp/bigscenario.png"/>
+            </Stereotype>
+            <Stereotype name="secondary" metaclass="Standard.Actor" owner-stereotype="" is-hidden="false" label="%stereotype.secondary.label" uid="01ec1ac4-0000-2f04-0000-000000000000">
+                <Icon path="res/bmp/secondary.png"/>
+                <Image path="res/bmp/bigsecondary.png"/>
+            </Stereotype>
+            <Stereotype name="stub" metaclass="Standard.Package" owner-stereotype="" is-hidden="false" label="%stereotype.stub.label" uid="00700680-0000-01d7-0000-000000000000">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="subset" metaclass="Standard.Constraint" owner-stereotype="" is-hidden="false" label="%stereotype.subset.label" uid="00540a84-0000-0005-0000-000000000000">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="subsystem" metaclass="Standard.Package" owner-stereotype="" is-hidden="false" label="%stereotype.subsystem.label" uid="00700680-0000-01d3-0000-000000000000">
+                <Icon path="res/bmp/subsystem.png"/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="system" metaclass="Standard.Actor" owner-stereotype="" is-hidden="false" label="%stereotype.system.label" uid="01ec1ac4-0000-2f09-0000-000000000000">
+                <Icon path="res/bmp/system.png"/>
+                <Image path="res/bmp/bigsystem.png"/>
+            </Stereotype>
+            <Stereotype name="system" metaclass="Standard.Package" owner-stereotype="" is-hidden="false" label="%stereotype.system.label" uid="007006dc-0000-0137-0000-000000000000">
+                <Icon path="res/bmp/system.png"/>
+                <Image path="res/bmp/bigsystem.png"/>
+            </Stereotype>
+            <Stereotype name="throw" metaclass="Standard.ElementImport" owner-stereotype="" is-hidden="false" label="%stereotype.throw.label" uid="0054070c-0000-005d-0000-000000000000">
+                <Icon path="res/bmp/raisedexception.png"/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="topLevel" metaclass="Standard.Package" owner-stereotype="" is-hidden="false" label="%stereotype.topLevel.label" uid="00700680-0000-01d9-0000-000000000000">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="trace" metaclass="Infrastructure.Dependency" owner-stereotype="" is-hidden="false" label="%stereotype.trace.label" uid="01280500-0000-0b37-0000-000000000000">
+                <Icon path="res/bmp/traceability.png"/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="transient" metaclass="Standard.Constraint" owner-stereotype="" is-hidden="false" label="%stereotype.transient.label" uid="00700680-0000-01fe-0000-000000000000">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="type" metaclass="Standard.Class" owner-stereotype="" is-hidden="false" label="%stereotype.type.label" uid="00700680-0000-01ba-0000-000000000000">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="utility" metaclass="Standard.Classifier" owner-stereotype="" is-hidden="false" label="%stereotype.utility.label" uid="00700680-0000-01bf-0000-000000000000">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="xor" metaclass="Standard.Constraint" owner-stereotype="" is-hidden="false" label="%stereotype.xor.label" uid="00700680-0000-0200-0000-000000000000">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="class" metaclass="Standard.StaticDiagram" owner-stereotype="" is-hidden="true" label="%stereotype.class.label" uid="002005c0-0001-0007-0000-000000000000">
+                <Icon path="res/bmp/staticdiagram_class.png"/>
+                <Image path="res/bmp/staticdiagram_class_image.png"/>
+            </Stereotype>
+            <Stereotype name="collaboration" metaclass="Standard.StaticDiagram" owner-stereotype="" is-hidden="true" label="%stereotype.collaboration.label" uid="00bc3ac0-0000-0d9a-0000-000000000000">
+                <Icon path="res/bmp/staticdiagram_collaboration.png"/>
+                <Image path="res/bmp/staticdiagram_collaboration_image.png"/>
+            </Stereotype>
+            <Stereotype name="communication" metaclass="Standard.StaticDiagram" owner-stereotype="" is-hidden="true" label="%stereotype.communication.label" uid="00bc4480-0000-06a8-0000-000000000000">
+                <Icon path="res/bmp/staticdiagram_communication.png"/>
+                <Image path="res/bmp/staticdiagram_communication_image.png"/>
+            </Stereotype>
+            <Stereotype name="deployment" metaclass="Standard.StaticDiagram" owner-stereotype="" is-hidden="true" label="%stereotype.deployment.label" uid="002005c0-0001-000f-0000-000000000000">
+                <Icon path="res/bmp/staticdiagram_deployment.png"/>
+                <Image path="res/bmp/staticdiagram_deployment_image.png"/>
+            </Stereotype>
+            <Stereotype name="impact" metaclass="Standard.StaticDiagram" owner-stereotype="" is-hidden="true" label="%stereotype.impact.label" uid="01ec2468-0000-0acb-0000-000000000000">
+                <Icon path="res/bmp/staticdiagram_impact.png"/>
+                <Image path="res/bmp/staticdiagram_impact_image.png"/>
+            </Stereotype>
+            <Stereotype name="object" metaclass="Standard.StaticDiagram" owner-stereotype="" is-hidden="true" label="%stereotype.object.label" uid="002005c0-0001-000d-0000-000000000000">
+                <Icon path="res/bmp/staticdiagram_object.png"/>
+                <Image path="res/bmp/staticdiagram_object_image.png"/>
+            </Stereotype>
+            <Stereotype name="state" metaclass="Standard.StaticDiagram" owner-stereotype="" is-hidden="true" label="%stereotype.state.label" uid="002005c0-0001-0011-0000-000000000000">
+                <Icon path="res/bmp/staticdiagram_state.png"/>
+                <Image path="res/bmp/staticdiagram_state_image.png"/>
+            </Stereotype>
+            <Stereotype name="usecase" metaclass="Standard.StaticDiagram" owner-stereotype="" is-hidden="true" label="%stereotype.usecase.label" uid="002005c0-0001-0009-0000-000000000000">
+                <Icon path="res/bmp/staticdiagram_usecase.png"/>
+                <Image path="res/bmp/staticdiagram_usecase_image.png"/>
+            </Stereotype>
+            <Stereotype name="related_diagram" metaclass="Infrastructure.Dependency" owner-stereotype="" is-hidden="false" label="%stereotype.related_diagram.label" uid="2961d57b-5120-11de-bbaf-00218648fa3d">
+                <Icon path="res/bmp/relateddiagram.png"/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="AutoDiagram" metaclass="Infrastructure.AbstractDiagram" owner-stereotype="" is-hidden="true" label="%stereotype.AutoDiagram.label" uid="8fb43b1c-7819-11e1-a4f1-002564c97630">
+                <Icon path="res/bmp/autodiagram.png"/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="directory" metaclass="Standard.Artifact" owner-stereotype="" is-hidden="true" label="%stereotype.directory.label" uid="6432b987-256f-4121-9428-a89d364c2cef">
+                <Icon path="res/bmp/directory.png"/>
+                <Image path="res/bmp/directory32.png"/>
+            </Stereotype>
+            <Stereotype name="file" metaclass="Standard.Artifact" owner-stereotype="" is-hidden="true" label="%stereotype.file.label" uid="0226fd5c-caf5-4cb4-b25c-06e493b37b2d">
+                <Icon path="res/bmp/file.png"/>
+                <Image path="res/bmp/file32.png"/>
+                <TagTypes>
+                    <TagType name="author" uid="58d3ae88-5b5e-44ba-9bb7-0b6ed000fbb9" label="%tagtype.author.label" parameter-card="1" is-hidden="false" is-signed="false"/>
+                    <TagType name="date" uid="fe23d1eb-75d1-48f5-abab-2248ad1d0dbf" label="%tagtype.date.label" parameter-card="1" is-hidden="false" is-signed="false"/>
+                </TagTypes>
+            </Stereotype>
+            <Stereotype name="url" metaclass="Standard.Artifact" owner-stereotype="" is-hidden="true" label="%stereotype.url.label" uid="c7ba7024-eff5-4039-a4d4-c9ddcd0a3aed">
+                <Icon path="res/bmp/url.png"/>
+                <Image path="res/bmp/url32.png"/>
+                <TagTypes>
+                    <TagType name="author" uid="7269505c-f5f2-4330-926b-19049c8f3c92" label="%tagtype.author.label" parameter-card="1" is-hidden="false" is-signed="false"/>
+                    <TagType name="date" uid="2a483a85-be6f-4684-8ece-b6cec8ba7620" label="%tagtype.date.label" parameter-card="1" is-hidden="false" is-signed="false"/>
+                </TagTypes>
+            </Stereotype>
+            <Stereotype name="mail" metaclass="Standard.Artifact" owner-stereotype="" is-hidden="true" label="%stereotype.mail.label" uid="74d7cf69-58eb-48e4-b71a-e5bb0f7570f7">
+                <Icon path="res/bmp/mail.png"/>
+                <Image path="res/bmp/mail32.png"/>
+            </Stereotype>
+            <Stereotype name="see_also" metaclass="Infrastructure.Dependency" owner-stereotype="" is-hidden="false" label="%stereotype.see_also.label" uid="0ac7e50f-50c6-4eb6-9107-3d9df92a2b75">
+                <Icon path="res/bmp/dependency_seealso.png"/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="JyMatrix" metaclass="Infrastructure.MatrixDefinition" owner-stereotype="" is-hidden="false" label="%stereotype.JyMatrix.label" uid="72ada667-0b7f-4421-bd69-9b037642ed87">
+                <Icon path="res/icon/gui/jymatrix.png"/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="impact_model" metaclass="Infrastructure.Dependency" owner-stereotype="" is-hidden="false" label="%stereotype.impact_model.label" uid="946458b2-daf1-44b8-887b-12a0d9e5c2f6">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <MetaclassReference uid="00bc3924-0000-189d-0000-000000000000" metaclass="Infrastructure.AbstractDiagram">
+                <TagTypes>
+                    <TagType name="generatedDiagram" uid="00bc3924-0000-1ae7-0000-000000000000" label="%tagtype.generatedDiagram.label" parameter-card="*" is-hidden="true" is-signed="false"/>
+                </TagTypes>
+            </MetaclassReference>
+            <MetaclassReference uid="00bc27b8-0000-0258-0000-000000000000" metaclass="Standard.Association">
+                <TagTypes>
+                    <TagType name="persistence" uid="00700680-0000-01e9-0000-000000000000" label="%tagtype.persistence.label" parameter-card="*" is-hidden="false" is-signed="false"/>
+                </TagTypes>
+            </MetaclassReference>
+            <MetaclassReference uid="00bc27b8-0000-02a9-0000-000000000000" metaclass="Standard.Attribute">
+                <TagTypes>
+                    <TagType name="persistence" uid="00700680-0000-01eb-0000-000000000000" label="%tagtype.persistence.label" parameter-card="*" is-hidden="false" is-signed="false"/>
+                </TagTypes>
+            </MetaclassReference>
+            <MetaclassReference uid="00bc27b8-0000-037a-0000-000000000000" metaclass="Standard.Classifier">
+                <TagTypes>
+                    <TagType name="persistence" uid="00700680-0000-01ed-0000-000000000000" label="%tagtype.persistence.label" parameter-card="*" is-hidden="false" is-signed="false"/>
+                </TagTypes>
+            </MetaclassReference>
+            <MetaclassReference uid="01ec2468-0000-0894-0000-000000000000" metaclass="Infrastructure.Dependency">
+                <TagTypes>
+                    <TagType name="cause_depth" uid="01ec2468-0000-0aba-0000-000000000000" label="%tagtype.cause_depth.label" parameter-card="1" is-hidden="false" is-signed="false"/>
+                    <TagType name="consequence_depth" uid="01ec2468-0000-0abf-0000-000000000000" label="%tagtype.consequence_depth.label" parameter-card="1" is-hidden="false" is-signed="false"/>
+                </TagTypes>
+            </MetaclassReference>
+            <MetaclassReference uid="00bc27b8-0000-08c8-0000-000000000000" metaclass="Infrastructure.ModelElement">
+                <TagTypes>
+                    <TagType name="nodoc" uid="c40494de-2182-11e1-85ce-002564c97630" label="%tagtype.nodoc.label" parameter-card="0" is-hidden="false" is-signed="false"/>
+                </TagTypes>
+                <NoteTypes>
+                    <NoteType name="description" label="%notetype.description.label" is-hidden="false" uid="00000000-0000-3e81-0000-000000000000" mime-type="text/html"/>
+                    <NoteType name="undefined" label="%notetype.undefined.label" is-hidden="false" uid="00000000-0000-3e83-0000-000000000000" mime-type="text/plain"/>
+                    <NoteType name="comment" label="%notetype.comment.label" is-hidden="false" uid="00000000-0000-3e80-0000-000000000000" mime-type="text/plain"/>
+                </NoteTypes>
+                <ExternDocumentTypes>
+                    <ExternDocumentType name="description" uid="9ccf914f-2175-11e1-a46e-002564c97630" label="%externdocumenttype.description.label" is-hidden="false"/>
+                </ExternDocumentTypes>
+            </MetaclassReference>
+            <MetaclassReference uid="00bc27b8-0000-092f-0000-000000000000" metaclass="Standard.ModelTree">
+                <TagTypes>
+                    <TagType name="userDiagramImage" uid="706d4a6a-3306-46c4-9ce8-af23457cc2ef" label="%tagtype.userDiagramImage.label" parameter-card="1" is-hidden="false" is-signed="false"/>
+                </TagTypes>
+                <NoteTypes>
+                    <NoteType name="summary" label="%notetype.summary.label" is-hidden="false" uid="00000000-0000-3e84-0000-000000000000" mime-type="text/plain"/>
+                </NoteTypes>
+                <ExternDocumentTypes>
+                    <ExternDocumentType name="specification" uid="06972e98-2177-11e1-a46e-002564c97630" label="%externdocumenttype.specification.label" is-hidden="false"/>
+                    <ExternDocumentType name="design" uid="06da53d0-2177-11e1-a46e-002564c97630" label="%externdocumenttype.design.label" is-hidden="false"/>
+                    <ExternDocumentType name="analysis" uid="86f09380-2bd8-11e1-8cff-002564c97630" label="%externdocumenttype.analysis.label" is-hidden="false"/>
+                </ExternDocumentTypes>
+            </MetaclassReference>
+            <MetaclassReference uid="deb348a5-2653-11e1-9161-002564c97630" metaclass="Standard.Operation">
+                <NoteTypes>
+                    <NoteType name="summary" label="%notetype.summary.label" is-hidden="false" uid="00540400-0000-011f-0000-000000000000" mime-type="text/plain"/>
+                </NoteTypes>
+            </MetaclassReference>
+            <MetaclassReference uid="00bc27b8-0000-0e0b-0000-000000000000" metaclass="Standard.UseCase">
+                <NoteTypes>
+                    <NoteType name="constraint" label="%notetype.constraint.label" is-hidden="false" uid="00bc0b8c-0000-251b-0000-000000000000" mime-type="text/plain"/>
+                    <NoteType name="non-functional constraint" label="%notetype.non-functional constraint.label" is-hidden="false" uid="00bc0c08-0000-242c-0000-000000000000" mime-type="text/plain"/>
+                    <NoteType name="exception" label="%notetype.exception.label" is-hidden="false" uid="00bc0b8c-0000-2519-0000-000000000000" mime-type="text/plain"/>
+                    <NoteType name="postcondition" label="%notetype.postcondition.label" is-hidden="false" uid="00bc0b8c-0000-2517-0000-000000000000" mime-type="text/plain"/>
+                    <NoteType name="precondition" label="%notetype.precondition.label" is-hidden="false" uid="00bc0b8c-0000-2515-0000-000000000000" mime-type="text/plain"/>
+                </NoteTypes>
+                <ExternDocumentTypes>
+                    <ExternDocumentType name="usecase" uid="85571022-1c36-11e1-90cd-002564c97631" label="%externdocumenttype.usecase.label" is-hidden="false"/>
+                </ExternDocumentTypes>
+            </MetaclassReference>
+            <MetaclassReference uid="00bc2f68-0000-0fd8-0000-000000000000" metaclass="Standard.AssociationEnd">
+                <TagTypes>
+                    <TagType name="ordered" uid="00000000-0000-3729-0000-000000000000" label="%tagtype.ordered.label" parameter-card="0" is-hidden="false" is-signed="false"/>
+                    <TagType name="qualifier" uid="00000000-0000-372a-0000-000000000000" label="%tagtype.qualifier.label" parameter-card="1" is-hidden="false" is-signed="false"/>
+                </TagTypes>
+            </MetaclassReference>
+            <MetaclassReference uid="3ac00e06-3921-4b35-bb60-84618d4da048" metaclass="Standard.Instance">
+                <TagTypes>
+                    <TagType name="userDiagramImage" uid="1a2def6e-2827-48c4-b013-7cbd96e8f99b" label="%tagtype.userDiagramImage.label" parameter-card="1" is-hidden="false" is-signed="false"/>
+                </TagTypes>
+            </MetaclassReference>
+            <MetaclassReference uid="3d7b14d7-4de3-4b8b-8a91-00c002a833bb" metaclass="Standard.ActivityNode">
+                <TagTypes>
+                    <TagType name="userDiagramImage" uid="c5770acc-29d9-49c6-9cd2-977b4474e48d" label="%tagtype.userDiagramImage.label" parameter-card="1" is-hidden="false" is-signed="false"/>
+                </TagTypes>
+            </MetaclassReference>
+            <MetaclassReference uid="de95a30a-def3-4199-88a5-577f867327a2" metaclass="Standard.StateVertex">
+                <TagTypes>
+                    <TagType name="userDiagramImage" uid="d3ff662b-b8a7-4cc0-8476-070defbe8926" label="%tagtype.userDiagramImage.label" parameter-card="1" is-hidden="false" is-signed="false"/>
+                </TagTypes>
+            </MetaclassReference>
+            <MetaclassReference uid="0c841642-4e99-4f0d-8a80-4f6d24bf8656" metaclass="Analyst.AnalystItem">
+                <TagTypes>
+                    <TagType name="userDiagramImage" uid="3139ea84-fdb9-45ef-9b08-ea65d7408105" label="%tagtype.userDiagramImage.label" parameter-card="1" is-hidden="false" is-signed="false"/>
+                </TagTypes>
+            </MetaclassReference>
+            <MetaclassReference uid="a27efc42-08b8-4e7d-95c6-b393e6fe5fba" metaclass="Standard.ActivityGroup">
+                <TagTypes>
+                    <TagType name="userDiagramImage" uid="1d89eb4d-8c5e-4ce0-b836-0d4f2d4a86e1" label="%tagtype.userDiagramImage.label" parameter-card="1" is-hidden="false" is-signed="false"/>
+                </TagTypes>
+            </MetaclassReference>
+            <MetaclassReference uid="1b62b1eb-de82-44cb-be22-ed350ae5cf8c" metaclass="Standard.Behavior">
+                <TagTypes>
+                    <TagType name="userDiagramImage" uid="aec5d702-6a89-471f-a273-22561cc5ed18" label="%tagtype.userDiagramImage.label" parameter-card="1" is-hidden="false" is-signed="false"/>
+                </TagTypes>
+            </MetaclassReference>
+            <MetaclassReference uid="aeb07ec3-af96-4069-af14-0436082805ca" metaclass="Standard.BpmnBaseElement">
+                <TagTypes>
+                    <TagType name="userDiagramImage" uid="df51d048-0ab9-48fd-8432-78e73a9a9ec4" label="%tagtype.userDiagramImage.label" parameter-card="1" is-hidden="false" is-signed="false"/>
+                </TagTypes>
+            </MetaclassReference>
+            <MetaclassReference uid="89c8bd8c-fa56-475b-9fe6-ffe3910cc35c" metaclass="Standard.Clause">
+                <TagTypes>
+                    <TagType name="userDiagramImage" uid="bad0fec1-19d5-4d75-96f9-150f3deb59cf" label="%tagtype.userDiagramImage.label" parameter-card="1" is-hidden="false" is-signed="false"/>
+                </TagTypes>
+            </MetaclassReference>
+            <MetaclassReference uid="8281b44e-16ea-4e9b-94d1-dc28a2be86a9" metaclass="Standard.CollaborationUse">
+                <TagTypes>
+                    <TagType name="userDiagramImage" uid="885e070a-b0d2-4da8-92a5-8ecd396f4afe" label="%tagtype.userDiagramImage.label" parameter-card="1" is-hidden="false" is-signed="false"/>
+                </TagTypes>
+            </MetaclassReference>
+            <MetaclassReference uid="4bd5d0c9-d5de-41d0-9515-f36f0ac34454" metaclass="Standard.Constraint">
+                <TagTypes>
+                    <TagType name="userDiagramImage" uid="033ae065-6f6c-4a70-b9c3-2ae9ff818da3" label="%tagtype.userDiagramImage.label" parameter-card="1" is-hidden="false" is-signed="false"/>
+                </TagTypes>
+            </MetaclassReference>
+            <MetaclassReference uid="df3fdfd2-5ce3-4a13-b31e-01ba8c736529" metaclass="Standard.EnumerationLiteral">
+                <TagTypes>
+                    <TagType name="userDiagramImage" uid="fb4e837f-19a1-4f43-b240-5efd7db90b11" label="%tagtype.userDiagramImage.label" parameter-card="1" is-hidden="false" is-signed="false"/>
+                </TagTypes>
+            </MetaclassReference>
+            <MetaclassReference uid="a6e0f5bd-2649-4c75-a926-3e833fb13002" metaclass="Standard.InteractionFragment">
+                <TagTypes>
+                    <TagType name="userDiagramImage" uid="a1907f56-2ae2-4a5d-93ef-fa577e9d07f3" label="%tagtype.userDiagramImage.label" parameter-card="1" is-hidden="false" is-signed="false"/>
+                </TagTypes>
+            </MetaclassReference>
+            <MetaclassReference uid="ca6d601e-7686-4e90-9b45-95d3878eddd4" metaclass="Standard.ProvidedInterface">
+                <TagTypes>
+                    <TagType name="userDiagramImage" uid="92b9f937-3bd2-44b1-b691-6f2f988e24a9" label="%tagtype.userDiagramImage.label" parameter-card="1" is-hidden="false" is-signed="false"/>
+                </TagTypes>
+            </MetaclassReference>
+            <MetaclassReference uid="433bb965-77f8-4b1b-9ace-864e5af81454" metaclass="Standard.RequiredInterface">
+                <TagTypes>
+                    <TagType name="userDiagramImage" uid="d7dfcad5-d8a0-4dfd-aa6e-a691909dc3f4" label="%tagtype.userDiagramImage.label" parameter-card="1" is-hidden="false" is-signed="false"/>
+                </TagTypes>
+            </MetaclassReference>
+        </Profile>
+    </Profiles>
+    <Gui>
+        <Commands>
+            <Command id="CreateStateMachineFromState" label="%command.CreateStateMachineFromState.label" tooltip="%command.CreateStateMachineFromState.tooltip" image="" modify-model="true">
+                <Scope metaclass="Standard.State" stereotype=""/>
+                <Handler class="org.modelio.module.modelermodule.command.CreateStateMachineFromState"/>
+            </Command>
+            <Command id="CreateUrl" label="%command.CreateUrl.label" tooltip="%command.CreateUrl.tooltip" image="res/bmp/url.png" modify-model="true">
+                <Scope metaclass="Standard.Package" stereotype=""/>
+                <Handler class="ElementCreate">
+                    <HParameter name="stereotype" value="ModelerModule#url"/>
+                    <HParameter name="metaclass" value="Standard.Artifact"/>
+                    <HParameter name="name" value="%command.CreateUrl.name"/>
+                </Handler>
+            </Command>
+            <Command id="CreateOperation" label="%command.CreateOperation.label" tooltip="%command.CreateOperation.tooltip" image="" modify-model="true">
+                <Scope metaclass="Standard.Message" stereotype=""/>
+                <Handler class="org.modelio.module.modelermodule.command.CreateOperation"/>
+            </Command>
+            <Command id="CreateClassifierByLifeline" label="%command.CreateClassifierByLifeline.label" tooltip="%command.CreateClassifierByLifeline.tooltip" image="" modify-model="true">
+                <Scope metaclass="Standard.Lifeline" stereotype=""/>
+                <Handler class="org.modelio.module.modelermodule.command.CreateClassifierByLifeline"/>
+            </Command>
+            <Command id="CreateClassifier" label="%command.CreateClassifier.label" tooltip="%command.CreateClassifier.tooltip" image="" modify-model="true">
+                <Scope metaclass="Standard.Instance" stereotype=""/>
+                <Handler class="org.modelio.module.modelermodule.command.CreateClassifier"/>
+            </Command>
+            <Command id="CreateMail" label="%command.CreateMail.label" tooltip="%command.CreateMail.tooltip" image="res/bmp/mail.png" modify-model="true">
+                <Scope metaclass="Standard.Package" stereotype=""/>
+                <Handler class="ElementCreate">
+                    <HParameter name="stereotype" value="ModelerModule#mail"/>
+                    <HParameter name="metaclass" value="Standard.Artifact"/>
+                    <HParameter name="name" value="%command.CreateMail.name"/>
+                </Handler>
+            </Command>
+            <Command id="UpdateFromClassifierByLifeline" label="%command.UpdateFromClassifierByLifeline.label" tooltip="%command.UpdateFromClassifierByLifeline.tooltip" image="" modify-model="true">
+                <Scope metaclass="Standard.Lifeline" stereotype=""/>
+                <Handler class="org.modelio.module.modelermodule.command.UpdateFromClassifierByLifeline"/>
+            </Command>
+            <Command id="ImplementInterfaces" label="%command.ImplementInterfaces.label" tooltip="%command.ImplementInterfaces.tooltip" image="" modify-model="true">
+                <Scope metaclass="Standard.Class" stereotype=""/>
+                <Handler class="org.modelio.module.modelermodule.command.ImplementInterfaces"/>
+            </Command>
+            <Command id="UpdateFromClassifier" label="%command.UpdateFromClassifier.label" tooltip="%command.UpdateFromClassifier.tooltip" image="" modify-model="true">
+                <Scope metaclass="Standard.Instance" stereotype=""/>
+                <Handler class="org.modelio.module.modelermodule.command.UpdateFromClassifier"/>
+            </Command>
+            <Command id="UpdateInternalStructure" label="%command.UpdateInternalStructure.label" tooltip="%command.UpdateInternalStructure.tooltip" image="" modify-model="true">
+                <Scope metaclass="Standard.Class" stereotype=""/>
+                <Handler class="org.modelio.module.modelermodule.command.UpdateInternalStructure"/>
+            </Command>
+            <Command id="CreateOperationFromTransition" label="%command.CreateOperationFromTransition.label" tooltip="%command.CreateOperationFromTransition.tooltip" image="" modify-model="true">
+                <Scope metaclass="Standard.Transition" stereotype=""/>
+                <Handler class="org.modelio.module.modelermodule.command.CreateOperationFromTransition"/>
+            </Command>
+            <Command id="OpenDocument" label="%command.OpenDocument.label" tooltip="%command.OpenDocument.tooltip" image="" modify-model="true">
+                <Scope metaclass="Standard.Artifact" stereotype=""/>
+                <Handler class="org.modelio.module.modelermodule.command.OpenDocument"/>
+            </Command>
+            <Command id="UpdateClassesFromInterface" label="%command.UpdateClassesFromInterface.label" tooltip="%command.UpdateClassesFromInterface.tooltip" image="" modify-model="true">
+                <Scope metaclass="Standard.Interface" stereotype=""/>
+                <Handler class="org.modelio.module.modelermodule.command.UpdateClassesFromInterface"/>
+            </Command>
+            <Command id="CreateAttribute" label="%command.CreateAttribute.label" tooltip="%command.CreateAttribute.tooltip" image="" modify-model="true">
+                <Scope metaclass="Standard.AttributeLink" stereotype=""/>
+                <Handler class="org.modelio.module.modelermodule.command.CreateAttribute"/>
+            </Command>
+            <Command id="UnimplementInterfaces" label="%command.UnimplementInterfaces.label" tooltip="%command.UnimplementInterfaces.tooltip" image="" modify-model="true">
+                <Scope metaclass="Standard.Class" stereotype=""/>
+                <Handler class="org.modelio.module.modelermodule.command.UnimplementInterfaces"/>
+            </Command>
+            <Command id="UpdateStateFromStateMachine" label="%command.UpdateStateFromStateMachine.label" tooltip="%command.UpdateStateFromStateMachine.tooltip" image="" modify-model="true">
+                <Scope metaclass="Standard.State" stereotype=""/>
+                <Handler class="org.modelio.module.modelermodule.command.UpdateStateFromStateMachine"/>
+            </Command>
+            <Command id="CreateFile" label="%command.CreateFile.label" tooltip="%command.CreateFile.tooltip" image="res/bmp/file.png" modify-model="true">
+                <Scope metaclass="Standard.Artifact" stereotype="ModelerModule#directory"/>
+                <Scope metaclass="Standard.Package" stereotype=""/>
+                <Handler class="ElementCreate">
+                    <HParameter name="stereotype" value="ModelerModule#file"/>
+                    <HParameter name="metaclass" value="Standard.Artifact"/>
+                    <HParameter name="name" value="%command.CreateFile.name"/>
+                </Handler>
+            </Command>
+            <Command id="CreateDirectory" label="%command.CreateDirectory.label" tooltip="%command.CreateDirectory.tooltip" image="res/bmp/directory.png" modify-model="true">
+                <Scope metaclass="Standard.Artifact" stereotype="ModelerModule#directory"/>
+                <Scope metaclass="Standard.Package" stereotype=""/>
+                <Handler class="ElementCreate">
+                    <HParameter name="stereotype" value="ModelerModule#directory"/>
+                    <HParameter name="metaclass" value="Standard.Artifact"/>
+                    <HParameter name="name" value="%command.CreateDirectory.name"/>
+                </Handler>
+            </Command>
+        </Commands>
+        <ContextualMenu>
+            <CommandRef refid="CreateClassifier" group="" group-image=""/>
+            <CommandRef refid="CreateClassifierByLifeline" group="" group-image=""/>
+            <CommandRef refid="UpdateFromClassifier" group="" group-image=""/>
+            <CommandRef refid="UpdateFromClassifierByLifeline" group="" group-image=""/>
+            <CommandRef refid="CreateOperation" group="" group-image=""/>
+            <CommandRef refid="CreateOperationFromTransition" group="" group-image=""/>
+            <CommandRef refid="CreateAttribute" group="" group-image=""/>
+            <CommandRef refid="UpdateClassesFromInterface" group="" group-image=""/>
+            <CommandRef refid="ImplementInterfaces" group="" group-image=""/>
+            <CommandRef refid="UnimplementInterfaces" group="" group-image=""/>
+            <CommandRef refid="UpdateInternalStructure" group="" group-image=""/>
+            <CommandRef refid="CreateStateMachineFromState" group="" group-image=""/>
+            <CommandRef refid="UpdateStateFromStateMachine" group="" group-image=""/>
+            <CommandRef refid="OpenDocument" group="" group-image=""/>
+            <CommandRef refid="CreateDirectory" group="" group-image=""/>
+            <CommandRef refid="CreateFile" group="" group-image=""/>
+            <CommandRef refid="CreateMail" group="" group-image=""/>
+            <CommandRef refid="CreateUrl" group="" group-image=""/>
+        </ContextualMenu>
+    </Gui>
+</Module>

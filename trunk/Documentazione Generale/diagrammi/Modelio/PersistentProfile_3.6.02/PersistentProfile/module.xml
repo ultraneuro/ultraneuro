@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Module id="PersistentProfile" class="com.modeliosoft.modelio.persistentprofile.impl.PersistentProfileModule" binaryversion="3.6.00" version="3.6.02" schema-level="2" uid="f83e4fa4-ad92-11de-80db-0014224f9977" author="modeliosoft" image="" url="">
+    <ClassPath>
+        <PathEntry path="lib/persistentprofile-3.6.02.jar"/>
+    </ClassPath>
+    <Profiles>
+        <Profile uid="b584e36a-51a9-11de-9aed-0014224f9977" id="PersistentProfile">
+            <Stereotype name="DataModel" metaclass="Standard.Package" owner-stereotype="" is-hidden="true" label="%stereotype.DataModel.label" uid="b58745c2-51a9-11de-9aed-0014224f9977">
+                <Icon path="res/PersistentProfile/DataModel16.png"/>
+                <Image path="res/PersistentProfile/DataModel16.png"/>
+            </Stereotype>
+            <Stereotype name="Entity" metaclass="Standard.Class" owner-stereotype="" is-hidden="true" label="%stereotype.Entity.label" uid="b58c0a76-51a9-11de-9aed-0014224f9977">
+                <Icon path="res/PersistentProfile/Entity16.png"/>
+                <Image path="res/PersistentProfile/Entity16.png"/>
+            </Stereotype>
+            <Stereotype name="PersistentAttribute" metaclass="Standard.Attribute" owner-stereotype="mref#'' {b5a64453-51a9-11de-9aed-0014224f9977} Infrastructure.Stereotype" is-hidden="true" label="%stereotype.PersistentAttribute.label" uid="b590cf2a-51a9-11de-9aed-0014224f9977">
+                <Icon path="res/PersistentProfile/PersistentAttribute16.png"/>
+                <Image path="res/PersistentProfile/PersistentAttribute16.png"/>
+            </Stereotype>
+            <Stereotype name="Role" metaclass="Standard.AssociationEnd" owner-stereotype="" is-hidden="true" label="%stereotype.Role.label" uid="b59593de-51a9-11de-9aed-0014224f9977">
+                <Icon path="res/PersistentProfile/Role16.png"/>
+                <Image path="res/PersistentProfile/Role16.png"/>
+            </Stereotype>
+            <Stereotype name="Relationship" metaclass="Standard.Association" owner-stereotype="" is-hidden="true" label="%stereotype.Relationship.label" uid="b59a5892-51a9-11de-9aed-0014224f9977">
+                <Icon path="res/PersistentProfile/Relationship16.png"/>
+                <Image path="res/PersistentProfile/PersistentProfile/Relationship16.png"/>
+            </Stereotype>
+            <Stereotype name="Identifier" metaclass="Standard.Attribute" owner-stereotype="mref#'' {b5a64453-51a9-11de-9aed-0014224f9977} Infrastructure.Stereotype" is-hidden="true" label="%stereotype.Identifier.label" uid="b5a17f9f-51a9-11de-9aed-0014224f9977">
+                <Icon path="res/PersistentProfile/Identifier16.png"/>
+                <Image path="res/PersistentProfile/Identifier16.png"/>
+            </Stereotype>
+            <Stereotype name="Identifier" metaclass="Standard.AssociationEnd" owner-stereotype="mref#'' {b59593de-51a9-11de-9aed-0014224f9977} Infrastructure.Stereotype" is-hidden="false" label="%stereotype.Identifier.label" uid="d073deda-8fe1-4ec8-97f0-894b2fd29885">
+                <Icon path="res/PersistentProfile/Identifier16.png"/>
+                <Image path="res/PersistentProfile/Identifier16.png"/>
+            </Stereotype>
+            <Stereotype name="PersistentProperty" metaclass="Standard.Attribute" owner-stereotype="" is-hidden="true" label="%stereotype.PersistentProperty.label" uid="b5a64453-51a9-11de-9aed-0014224f9977">
+                <Icon path=""/>
+                <Image path=""/>
+            </Stereotype>
+            <Stereotype name="PersistentDiagram" metaclass="Standard.StaticDiagram" owner-stereotype="" is-hidden="true" label="%stereotype.PersistentDiagram.label" uid="b5ab0908-51a9-11de-9aed-0014224f9977">
+                <Icon path="res/PersistentProfile/PersistentDiagram16.png"/>
+                <Image path="res/PersistentProfile/PersistentDiagram16.png"/>
+            </Stereotype>
+            <Stereotype name="RootDataModel" metaclass="Standard.Package" owner-stereotype="" is-hidden="true" label="%stereotype.RootDataModel.label" uid="c25c83ae-559e-11de-b5f2-0014224f9977">
+                <Icon path="res/PersistentProfile/RootDataModel16.png"/>
+                <Image path="res/PersistentProfile/RootDataModel16.png"/>
+            </Stereotype>
+            <Stereotype name="ClassHierarchy" metaclass="Standard.Generalization" owner-stereotype="" is-hidden="true" label="%stereotype.ClassHierarchy.label" uid="0da115c5-6261-11de-ba43-0014224f9977">
+                <Icon path="res/PersistentProfile/ClassHierarchy16.png"/>
+                <Image path="res/PersistentProfile/ClassHierarchy16.png"/>
+            </Stereotype>
+            <Stereotype name="SQLConstraint" metaclass="Standard.Constraint" owner-stereotype="" is-hidden="true" label="%stereotype.SQLConstraint.label" uid="14fdee2f-7dd6-11df-9cce-0014224f9977">
+                <Icon path=""/>
+                <Image path=""/>
+                <TagTypes>
+                    <TagType name="SQLConstraint.isUnique" uid="1756b3f3-7dd6-11df-9cce-0014224f9977" label="%tagtype.SQLConstraint.isUnique.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="SQLConstraint.isNotNull" uid="2a1ce213-7dd6-11df-9cce-0014224f9977" label="%tagtype.SQLConstraint.isNotNull.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="SQLConstraint.Type" uid="0ac5efa6-828d-11df-8820-0014224f9977" label="%tagtype.SQLConstraint.Type.label" parameter-card="1" is-hidden="false" is-signed="false"/>
+                </TagTypes>
+            </Stereotype>
+            <Stereotype name="Tracability" metaclass="Infrastructure.Dependency" owner-stereotype="" is-hidden="false" label="%stereotype.Tracability.label" uid="e3de7eb5-838c-11df-aa4e-0014224f9977">
+                <Icon path=""/>
+                <Image path=""/>
+                <TagTypes>
+                    <TagType name="Tracability.Type" uid="e7792839-838c-11df-aa4e-0014224f9977" label="%tagtype.Tracability.Type.label" parameter-card="1" is-hidden="false" is-signed="false"/>
+                </TagTypes>
+            </Stereotype>
+            <MetaclassReference uid="b58745c0-51a9-11de-9aed-0014224f9977" metaclass="Standard.Package">
+                <TagTypes>
+                    <TagType name="persistent.datamodel.schema" uid="40415287-5734-11de-8f33-0014224f9977" label="%tagtype.persistent.datamodel.schema.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persistent.datamodel.catalog" uid="4041528c-5734-11de-8f33-0014224f9977" label="%tagtype.persistent.datamodel.catalog.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persistent.datamodel.connectionurl" uid="40461742-5734-11de-8f33-0014224f9977" label="%tagtype.persistent.datamodel.connectionurl.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persistent.datamodel.connectionusername" uid="40487997-5734-11de-8f33-0014224f9977" label="%tagtype.persistent.datamodel.connectionusername.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persistent.datamodel.connectiondriver_class" uid="4048799c-5734-11de-8f33-0014224f9977" label="%tagtype.persistent.datamodel.connectiondriver_class.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persistent.datamodel.dialect" uid="404adbf2-5734-11de-8f33-0014224f9977" label="%tagtype.persistent.datamodel.dialect.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persistent.datamodel.connectionpassword" uid="404adbf7-5734-11de-8f33-0014224f9977" label="%tagtype.persistent.datamodel.connectionpassword.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persistent.datamodel.transactionfactory_class" uid="404d3e4d-5734-11de-8f33-0014224f9977" label="%tagtype.persistent.datamodel.transactionfactory_class.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persistent.datamodel.current_session_context_class" uid="404d3e52-5734-11de-8f33-0014224f9977" label="%tagtype.persistent.datamodel.current_session_context_class.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persistent.datamodel.hibernate.show_sql" uid="404fa0a8-5734-11de-8f33-0014224f9977" label="%tagtype.persistent.datamodel.hibernate.show_sql.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persistent.datamodel.generationpath" uid="404fa0ad-5734-11de-8f33-0014224f9977" label="%tagtype.persistent.datamodel.generationpath.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persistent.datamodel.poolsize" uid="4054655e-5734-11de-8f33-0014224f9977" label="%tagtype.persistent.datamodel.poolsize.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                </TagTypes>
+            </MetaclassReference>
+            <MetaclassReference uid="b58c0a74-51a9-11de-9aed-0014224f9977" metaclass="Standard.Class">
+                <TagTypes>
+                    <TagType name="persistent.entity.persistentName" uid="9b6398d4-5694-11de-8f9d-0014224f9977" label="%tagtype.persistent.entity.persistentName.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persistent.entity.discriminatorvalue" uid="9b685d86-5694-11de-8f9d-0014224f9977" label="%tagtype.persistent.entity.discriminatorvalue.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persistent.entity.mutable" uid="9b6abfe1-5694-11de-8f9d-0014224f9977" label="%tagtype.persistent.entity.mutable.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persistent.entity.schema" uid="9b6abfe6-5694-11de-8f9d-0014224f9977" label="%tagtype.persistent.entity.schema.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persistent.entity.catalog" uid="9b6d2240-5694-11de-8f9d-0014224f9977" label="%tagtype.persistent.entity.catalog.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persistent.entity.proxy" uid="9b6d2245-5694-11de-8f9d-0014224f9977" label="%tagtype.persistent.entity.proxy.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persistent.entity.dynamic-update" uid="9b6f849b-5694-11de-8f9d-0014224f9977" label="%tagtype.persistent.entity.dynamic-update.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persistent.entity.dynamic-insert" uid="9b6f84a0-5694-11de-8f9d-0014224f9977" label="%tagtype.persistent.entity.dynamic-insert.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persistent.entity.select-before-update" uid="9b71e6f6-5694-11de-8f9d-0014224f9977" label="%tagtype.persistent.entity.select-before-update.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persistent.entity.polymorphism" uid="9b71e6fb-5694-11de-8f9d-0014224f9977" label="%tagtype.persistent.entity.polymorphism.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persistent.entity.where" uid="9b744950-5694-11de-8f9d-0014224f9977" label="%tagtype.persistent.entity.where.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persistent.entity.persister" uid="9b744955-5694-11de-8f9d-0014224f9977" label="%tagtype.persistent.entity.persister.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persistent.entity.batch-size" uid="9b74495a-5694-11de-8f9d-0014224f9977" label="%tagtype.persistent.entity.batch-size.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persistent.entity.optimistic-lock" uid="9b76abac-5694-11de-8f9d-0014224f9977" label="%tagtype.persistent.entity.optimistic-lock.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persistent.entity.lazy" uid="9b76abb1-5694-11de-8f9d-0014224f9977" label="%tagtype.persistent.entity.lazy.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persistent.entity.entity-name" uid="9b790e06-5694-11de-8f9d-0014224f9977" label="%tagtype.persistent.entity.entity-name.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persistent.entity.check" uid="9b790e0b-5694-11de-8f9d-0014224f9977" label="%tagtype.persistent.entity.check.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persistent.entity.rowid" uid="9b7b7061-5694-11de-8f9d-0014224f9977" label="%tagtype.persistent.entity.rowid.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persistent.entity.subselect" uid="9b7b7066-5694-11de-8f9d-0014224f9977" label="%tagtype.persistent.entity.subselect.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persistent.entity.node" uid="9b7dd2bd-5694-11de-8f9d-0014224f9977" label="%tagtype.persistent.entity.node.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persistent.entity.abstract" uid="9b803516-5694-11de-8f9d-0014224f9977" label="%tagtype.persistent.entity.abstract.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persistent.entity.discriminatorcolumn" uid="b0a2887c-64ad-11de-90b3-0014224f9977" label="%tagtype.persistent.entity.discriminatorcolumn.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persistent.entity.discriminatorcolumntype" uid="fd214e0b-64af-11de-90b3-0014224f9977" label="%tagtype.persistent.entity.discriminatorcolumntype.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persistent.entity.hasTechnicalKey" uid="cd339e35-756b-11df-a92d-0014224f9977" label="%tagtype.persistent.entity.hasTechnicalKey.label" parameter-card="1" is-hidden="false" is-signed="false"/>
+                    <TagType name="persistent.entity.technicalKey" uid="eb3eda8a-756b-11df-a92d-0014224f9977" label="%tagtype.persistent.entity.technicalKey.label" parameter-card="1" is-hidden="false" is-signed="false"/>
+                    <TagType name="persistent.entity.technicalKeyType" uid="06b81114-756c-11df-a92d-0014224f9977" label="%tagtype.persistent.entity.technicalKeyType.label" parameter-card="1" is-hidden="false" is-signed="false"/>
+                </TagTypes>
+            </MetaclassReference>
+            <MetaclassReference uid="b590cf28-51a9-11de-9aed-0014224f9977" metaclass="Standard.Attribute">
+                <TagTypes>
+                    <TagType name="persistent.persistentattribute.unique" uid="b5933185-51a9-11de-9aed-0014224f9977" label="%tagtype.persistent.persistentattribute.unique.label" parameter-card="0" is-hidden="true" is-signed="false"/>
+                    <TagType name="persistent.persistentattribute.notNull" uid="b593318a-51a9-11de-9aed-0014224f9977" label="%tagtype.persistent.persistentattribute.notNull.label" parameter-card="0" is-hidden="true" is-signed="false"/>
+                    <TagType name="persistent.property.update" uid="31429049-572c-11de-8f9d-0014224f9977" label="%tagtype.persistent.property.update.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persistent.property.insert" uid="3142904e-572c-11de-8f9d-0014224f9977" label="%tagtype.persistent.property.insert.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persistent.property.formula" uid="3144f2a4-572c-11de-8f9d-0014224f9977" label="%tagtype.persistent.property.formula.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persistent.property.access" uid="3144f2a9-572c-11de-8f9d-0014224f9977" label="%tagtype.persistent.property.access.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persistent.property.lazy" uid="314754ff-572c-11de-8f9d-0014224f9977" label="%tagtype.persistent.property.lazy.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persistent.property.optimistic-lock" uid="31475504-572c-11de-8f9d-0014224f9977" label="%tagtype.persistent.property.optimistic-lock.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persistent.property.generated" uid="31475509-572c-11de-8f9d-0014224f9977" label="%tagtype.persistent.property.generated.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persistent.property.index" uid="3149b75b-572c-11de-8f9d-0014224f9977" label="%tagtype.persistent.property.index.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persistent.property.length" uid="3149b760-572c-11de-8f9d-0014224f9977" label="%tagtype.persistent.property.length.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persistent.property.precision" uid="314c19b5-572c-11de-8f9d-0014224f9977" label="%tagtype.persistent.property.precision.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persistent.property.scale" uid="314c19ba-572c-11de-8f9d-0014224f9977" label="%tagtype.persistent.property.scale.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persistent.property.node" uid="b28fa254-5a74-11de-b755-0014224f9977" label="%tagtype.persistent.property.node.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persistent.property.uniquekey" uid="b28fa259-5a74-11de-b755-0014224f9977" label="%tagtype.persistent.property.uniquekey.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persistent.identifier.generator" uid="40330469-5734-11de-8f33-0014224f9977" label="%tagtype.persistent.identifier.generator.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persistent.identifier.unsaved-value" uid="4033046e-5734-11de-8f33-0014224f9977" label="%tagtype.persistent.identifier.unsaved-value.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persistent.identifier.access" uid="403566c0-5734-11de-8f33-0014224f9977" label="%tagtype.persistent.identifier.access.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persistent.identifier.node" uid="403566c5-5734-11de-8f33-0014224f9977" label="%tagtype.persistent.identifier.node.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persistent.identifier.length" uid="b2a51668-5a74-11de-b755-0014224f9977" label="%tagtype.persistent.identifier.length.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persistent.property.persistentName" uid="c9da6d59-5735-11de-8f33-0014224f9977" label="%tagtype.persistent.property.persistentName.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persistent.property.type" uid="c9dccfb3-5735-11de-8f33-0014224f9977" label="%tagtype.persistent.property.type.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persistent.property.isidentifier" uid="917e2804-cabd-11de-9bb8-0014224f9977" label="%tagtype.persistent.property.isidentifier.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                </TagTypes>
+            </MetaclassReference>
+            <MetaclassReference uid="b59593dc-51a9-11de-9aed-0014224f9977" metaclass="Standard.AssociationEnd">
+                <TagTypes>
+                    <TagType name="persisten.role.cascade" uid="ddcd8fa1-598c-11de-9ccf-0014224f9977" label="%tagtype.persisten.role.cascade.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persisten.role.update" uid="ddcff1b9-598c-11de-9ccf-0014224f9977" label="%tagtype.persisten.role.update.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persisten.role.insert" uid="ddcff1be-598c-11de-9ccf-0014224f9977" label="%tagtype.persisten.role.insert.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persisten.role.access" uid="ddd253d3-598c-11de-9ccf-0014224f9977" label="%tagtype.persisten.role.access.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persisten.role.unique" uid="ddd253d8-598c-11de-9ccf-0014224f9977" label="%tagtype.persisten.role.unique.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persisten.role.optimistic-lock" uid="ddd71806-598c-11de-9ccf-0014224f9977" label="%tagtype.persisten.role.optimistic-lock.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persisten.role.lazy" uid="ddd7180b-598c-11de-9ccf-0014224f9977" label="%tagtype.persisten.role.lazy.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persisten.role.not-found" uid="ddd97a1d-598c-11de-9ccf-0014224f9977" label="%tagtype.persisten.role.not-found.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persisten.role.entity-name" uid="ddd97a22-598c-11de-9ccf-0014224f9977" label="%tagtype.persisten.role.entity-name.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persisten.role.formula" uid="ddd97a27-598c-11de-9ccf-0014224f9977" label="%tagtype.persisten.role.formula.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persisten.role.node" uid="dddbdc37-598c-11de-9ccf-0014224f9977" label="%tagtype.persisten.role.node.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persisten.role.embed-xml" uid="dddbdc3c-598c-11de-9ccf-0014224f9977" label="%tagtype.persisten.role.embed-xml.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persisten.role.index" uid="ddde3e4f-598c-11de-9ccf-0014224f9977" label="%tagtype.persisten.role.index.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persisten.role.unique_key" uid="ddde3e54-598c-11de-9ccf-0014224f9977" label="%tagtype.persisten.role.unique_key.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persisten.role.foreign-key" uid="ddde3e59-598c-11de-9ccf-0014224f9977" label="%tagtype.persisten.role.foreign-key.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persisten.role.class" uid="dde0a069-598c-11de-9ccf-0014224f9977" label="%tagtype.persisten.role.class.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persisten.role.persistentName" uid="dde0a06e-598c-11de-9ccf-0014224f9977" label="%tagtype.persisten.role.persistentName.label" parameter-card="2" is-hidden="true" is-signed="false"/>
+                    <TagType name="persisten.role.type" uid="0706eb33-59bb-11de-9f28-0014224f9977" label="%tagtype.persisten.role.type.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persisten.role.outerjoin" uid="3bccd837-5cc5-11de-8dc9-0014224f9977" label="%tagtype.persisten.role.outerjoin.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persisten.role.hasforeignkey" uid="885797d8-5ff2-11de-a72e-0014224f9977" label="%tagtype.persisten.role.hasforeignkey.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persisten.role.typemap.indexcolumn" uid="dfc5340f-622c-11de-ad1a-0014224f9977" label="%tagtype.persisten.role.typemap.indexcolumn.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persisten.role.typelist.index" uid="dfc79669-622c-11de-ad1a-0014224f9977" label="%tagtype.persisten.role.typelist.index.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persisten.role.typemap.indextype" uid="dfc7966e-622c-11de-ad1a-0014224f9977" label="%tagtype.persisten.role.typemap.indextype.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persisten.role.typemap.elementtype" uid="dfc9f8c4-622c-11de-ad1a-0014224f9977" label="%tagtype.persisten.role.typemap.elementtype.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persisten.role.typemap.elementcolumn" uid="dfc9f8c9-622c-11de-ad1a-0014224f9977" label="%tagtype.persisten.role.typemap.elementcolumn.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persisten.role.collection.sort" uid="dfcc5b1f-622c-11de-ad1a-0014224f9977" label="%tagtype.persisten.role.collection.sort.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                </TagTypes>
+            </MetaclassReference>
+            <MetaclassReference uid="b59a5890-51a9-11de-9aed-0014224f9977" metaclass="Standard.Association">
+                <TagTypes>
+                    <TagType name="persisten.relationship.transformation" uid="c58a7dca-5a8b-11de-b636-0014224f9977" label="%tagtype.persisten.relationship.transformation.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persisten.relationship.persistentName" uid="8a18a421-574e-11de-b54f-0014224f9977" label="%tagtype.persisten.relationship.persistentName.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                    <TagType name="persisten.relationship.fetch" uid="8a1b0677-574e-11de-b54f-0014224f9977" label="%tagtype.persisten.relationship.fetch.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                </TagTypes>
+            </MetaclassReference>
+            <MetaclassReference uid="b5ab0906-51a9-11de-9aed-0014224f9977" metaclass="Standard.StaticDiagram"/>
+            <MetaclassReference uid="46acc5d9-55d9-11de-8450-0014224f9977" metaclass="Infrastructure.ModelElement">
+                <TagTypes>
+                    <TagType name="persistent.propertymode" uid="46acc5de-55d9-11de-8450-0014224f9977" label="%tagtype.persistent.propertymode.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                </TagTypes>
+            </MetaclassReference>
+            <MetaclassReference uid="0da115c3-6261-11de-ba43-0014224f9977" metaclass="Standard.Generalization">
+                <TagTypes>
+                    <TagType name="persistent.classhierarchy.type" uid="0da37822-6261-11de-ba43-0014224f9977" label="%tagtype.persistent.classhierarchy.type.label" parameter-card="1" is-hidden="true" is-signed="false"/>
+                </TagTypes>
+            </MetaclassReference>
+            <MetaclassReference uid="7c3b3e09-843c-11df-aa4e-0014224f9977" metaclass="Standard.Enumeration">
+                <TagTypes>
+                    <TagType name="persistent.enumeration.persistentName" uid="88aa11ba-843c-11df-aa4e-0014224f9977" label="%tagtype.persistent.enumeration.persistentName.label" parameter-card="1" is-hidden="false" is-signed="false"/>
+                </TagTypes>
+            </MetaclassReference>
+        </Profile>
+    </Profiles>
+    <Parameters>
+        <Parameter id="hibernate.jdbc.driver" group="%group.default.label" uid="1823d2dd-c7ad-11de-b451-0014224f9977" type="String" default-value="" label="%parameter.hibernate.jdbc.driver.label">
+            <Description>%parameter.hibernate.jdbc.driver.description</Description>
+        </Parameter>
+        <Parameter id="hibernate.jdbc.dialect" group="%group.default.label" uid="37ce5094-c7ad-11de-b451-0014224f9977" type="String" default-value="" label="%parameter.hibernate.jdbc.dialect.label">
+            <Description>%parameter.hibernate.jdbc.dialect.description</Description>
+        </Parameter>
+        <Parameter id="hibernate.jdbc.transactionfactory" group="%group.default.label" uid="4490c0fa-c7ad-11de-b451-0014224f9977" type="String" default-value="" label="%parameter.hibernate.jdbc.transactionfactory.label">
+            <Description>%parameter.hibernate.jdbc.transactionfactory.description</Description>
+        </Parameter>
+        <Parameter id="hibernate.database.url" group="%group.default.label" uid="574de39e-c7ad-11de-b451-0014224f9977" type="String" default-value="" label="%parameter.hibernate.database.url.label">
+            <Description>%parameter.hibernate.database.url.description</Description>
+        </Parameter>
+        <Parameter id="hibernate.database.username" group="%group.default.label" uid="6c853cf8-c7ad-11de-b451-0014224f9977" type="String" default-value="" label="%parameter.hibernate.database.username.label">
+            <Description>%parameter.hibernate.database.username.description</Description>
+        </Parameter>
+        <Parameter id="hibernate.database.userpassworld" group="%group.default.label" uid="81b0aa77-c7ad-11de-b451-0014224f9977" type="String" default-value="" label="%parameter.hibernate.database.userpassworld.label">
+            <Description>%parameter.hibernate.database.userpassworld.description</Description>
+        </Parameter>
+        <Parameter id="hibernate.connection.pool_size" group="%group.default.label" uid="9468fe37-c7ad-11de-b451-0014224f9977" type="String" default-value="" label="%parameter.hibernate.connection.pool_size.label">
+            <Description>%parameter.hibernate.connection.pool_size.description</Description>
+        </Parameter>
+        <Parameter id="hibernate.directory.javapath" group="%group.default.label" uid="a24e3e67-c7ad-11de-b451-0014224f9977" type="String" default-value="" label="%parameter.hibernate.directory.javapath.label">
+            <Description>%parameter.hibernate.directory.javapath.description</Description>
+        </Parameter>
+        <Parameter id="hibernate.directory.path" group="%group.default.label" uid="c4faae5b-c7ad-11de-b451-0014224f9977" type="String" default-value="" label="%parameter.hibernate.directory.path.label">
+            <Description>%parameter.hibernate.directory.path.description</Description>
+        </Parameter>
+    </Parameters>
+    <Gui>
+        <Commands>
+            <Command id="UMLToDataModel" label="%command.UMLToDataModel.label" tooltip="%command.UMLToDataModel.tooltip" image="res/bmp/UMLToDataModel16.png" modify-model="true">
+                <Scope metaclass="Infrastructure.ModelElement" stereotype=""/>
+                <Handler class="com.modeliosoft.modelio.persistentprofile.impl.UMLToDataModel"/>
+            </Command>
+            <Command id="PersistentAttribute" label="%command.PersistentAttribute.label" tooltip="%command.PersistentAttribute.tooltip" image="res/PersistentProfile/PersistentAttribute16.png" modify-model="true">
+                <Scope metaclass="Standard.Class" stereotype="PersistentProfile#Entity"/>
+                <Handler class="com.modeliosoft.modelio.persistentprofile.commande.explorer.PersistentAttributeCommande"/>
+            </Command>
+            <Command id="Identifier" label="%command.Identifier.label" tooltip="%command.Identifier.tooltip" image="res/PersistentProfile/Identifier16.png" modify-model="true">
+                <Scope metaclass="Standard.Class" stereotype="PersistentProfile#Entity"/>
+                <Handler class="com.modeliosoft.modelio.persistentprofile.commande.explorer.IdentifierCommande"/>
+            </Command>
+            <Command id="Entity" label="%command.Entity.label" tooltip="%command.Entity.tooltip" image="res/PersistentProfile/Entity16.png" modify-model="true">
+                <Scope metaclass="Standard.Package" stereotype="PersistentProfile#DataModel"/>
+                <Scope metaclass="Standard.Package" stereotype="PersistentProfile#RootDataModel"/>
+                <Handler class="com.modeliosoft.modelio.persistentprofile.commande.explorer.EntityCommande"/>
+            </Command>
+            <Command id="RootDataModel" label="%command.RootDataModel.label" tooltip="%command.RootDataModel.tooltip" image="res/PersistentProfile/RootDataModel16.png" modify-model="true">
+                <Scope metaclass="Standard.ModelTree" stereotype=""/>
+                <Handler class="com.modeliosoft.modelio.persistentprofile.commande.explorer.RootDataModelCommande"/>
+            </Command>
+            <Command id="PersistentDiagramCommand" label="%command.PersistentDiagramCommand.label" tooltip="%command.PersistentDiagramCommand.tooltip" image="res/PersistentProfile/PersistentDiagram16.png" modify-model="true">
+                <Scope metaclass="Standard.ModelTree" stereotype=""/>
+                <Handler class="com.modeliosoft.modelio.persistentprofile.commande.PersistentDiagramCommand"/>
+            </Command>
+            <Command id="DataModel" label="%command.DataModel.label" tooltip="%command.DataModel.tooltip" image="res/PersistentProfile/DataModel16.png" modify-model="true">
+                <Scope metaclass="Standard.Package" stereotype="PersistentProfile#RootDataModel"/>
+                <Scope metaclass="Standard.Package" stereotype="PersistentProfile#DataModel"/>
+                <Handler class="com.modeliosoft.modelio.persistentprofile.commande.explorer.DataModelCommande"/>
+            </Command>
+        </Commands>
+        <Tools>
+            <Tool id="ClassHierrarchyDiagramCommande" label="%tool.ClassHierrarchyDiagramCommande.label" tooltip="%tool.ClassHierrarchyDiagramCommande.tooltip" image="res//PersistentProfile/ClassHierarchy16.png">
+                <Handler class="com.modeliosoft.modelio.persistentprofile.commande.diagram.ClassHierrarchyDiagramCommande">
+                    <HParameter name="metaclass" value="Standard.Generalization"/>
+                </Handler>
+            </Tool>
+            <Tool id="RelationshipDiagramCommande" label="%tool.RelationshipDiagramCommande.label" tooltip="%tool.RelationshipDiagramCommande.tooltip" image="res/PersistentProfile/Relationship16.png">
+                <Handler class="com.modeliosoft.modelio.persistentprofile.commande.diagram.RelationshipDiagramCommande">
+                    <HParameter name="metaclass" value="Standard.AssociationEnd"/>
+                </Handler>
+            </Tool>
+            <Tool id="SQLConstraintDiagramCommande" label="%tool.SQLConstraintDiagramCommande.label" tooltip="%tool.SQLConstraintDiagramCommande.tooltip" image="res/PersistentProfile/SQLConstraint16.png">
+                <Handler class="com.modeliosoft.modelio.persistentprofile.commande.diagram.SQLConstraintDiagramCommande">
+                    <HParameter name="metaclass" value="Standard.Constraint"/>
+                </Handler>
+            </Tool>
+            <Tool id="PersistentAttributeDiagramCommande" label="%tool.PersistentAttributeDiagramCommande.label" tooltip="%tool.PersistentAttributeDiagramCommande.tooltip" image="res/PersistentProfile/PersistentAttribute16.png">
+                <Handler class="com.modeliosoft.modelio.persistentprofile.commande.diagram.PersistentAttributeDiagramCommande">
+                    <HParameter name="metaclass" value="Standard.Attribute"/>
+                </Handler>
+            </Tool>
+            <Tool id="IdentifierDiagramCommande" label="%tool.IdentifierDiagramCommande.label" tooltip="%tool.IdentifierDiagramCommande.tooltip" image="res/PersistentProfile/Identifier16.png">
+                <Handler class="com.modeliosoft.modelio.persistentprofile.commande.diagram.IdentifierDiagramCommande">
+                    <HParameter name="metaclass" value="Standard.Attribute"/>
+                </Handler>
+            </Tool>
+            <Tool id="EntityDiagramCommande" label="%tool.EntityDiagramCommande.label" tooltip="%tool.EntityDiagramCommande.tooltip" image="res/PersistentProfile/Entity16.png">
+                <Handler class="com.modeliosoft.modelio.persistentprofile.commande.diagram.EntityDiagramCommande">
+                    <HParameter name="metaclass" value="Standard.Class"/>
+                </Handler>
+            </Tool>
+            <Tool id="DataModelDiagramCommande" label="%tool.DataModelDiagramCommande.label" tooltip="%tool.DataModelDiagramCommande.tooltip" image="res/PersistentProfile/DataModel16.png">
+                <Handler class="com.modeliosoft.modelio.persistentprofile.commande.diagram.DataModelDiagramCommande">
+                    <HParameter name="metaclass" value="Standard.Package"/>
+                </Handler>
+            </Tool>
+        </Tools>
+        <ContextualMenu>
+            <CommandRef refid="PersistentDiagramCommand" group="" group-image=""/>
+            <CommandRef refid="RootDataModel" group="" group-image=""/>
+            <CommandRef refid="DataModel" group="" group-image=""/>
+            <CommandRef refid="Entity" group="" group-image=""/>
+            <CommandRef refid="Identifier" group="" group-image=""/>
+            <CommandRef refid="PersistentAttribute" group="" group-image=""/>
+            <CommandRef refid="UMLToDataModel" group="" group-image=""/>
+        </ContextualMenu>
+        <Diagrams>
+            <DiagramType base-diagram="Standard.StaticDiagram" stereotype="PersistentProfile#PersistentDiagram">
+                <Palette keepBasePalette="false"/>
+                <Wizard label="%wizard.Persistent_diagram.label" icon="res/PersistentProfile/PersistentDiagram16.png" information="%wizard.Persistent_diagram.info" details="%wizard.Persistent_diagram.detail" preview-image="">
+                    <Handler class="com.modeliosoft.modelio.persistentprofile.commande.PersistentDiagramContributor"/>
+                </Wizard>
+                <Handler class="com.modeliosoft.modelio.persistentprofile.commande.PersistentDiagramCustomization">
+                    <HParameter name="stereotype" value="PersistentProfile#PersistentDiagram"/>
+                    <HParameter name="metaclass" value="Standard.StaticDiagram"/>
+                </Handler>
+            </DiagramType>
+        </Diagrams>
+        <Views>
+            <PropertyPage id="PersistentPropertyPage" class="com.modeliosoft.modelio.persistentprofile.impl.PersistentProfileOnglet" label="%propertypage.PersistentPropertyPage.label" image="res/bmp/RootDataModel16.png">
+                <CommandRef refid="UMLToDataModel" group="" group-image=""/>
+            </PropertyPage>
+        </Views>
+    </Gui>
+    <Dependencies>
+        <Required name="ModelerModule" version="8.7.10"/>
+    </Dependencies>
+</Module>
